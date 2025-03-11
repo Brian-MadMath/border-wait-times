@@ -25,14 +25,24 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y unzip wget
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get -f install -y
+          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt install -y ./google-chrome-stable_current_amd64.deb  # Método recomendado
+          
+          # Verificar instalación exitosa
+          if ! command -v google-chrome &> /dev/null
+          then
+              echo "❌ Google Chrome no se instaló correctamente"
+              exit 1
+          fi
+
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
           wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
+
           python -m pip install --upgrade pip
           pip install -r requirements.txt  # Asegúrate de que este archivo existe
+
 
       - name: 🚀 Ejecutar el scraper
         run: python scraper.py
