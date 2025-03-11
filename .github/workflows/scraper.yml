@@ -1,33 +1,46 @@
-name: Actualizar tiempos de espera
+name: Ejecutar Scraper y Actualizar JSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Ejecuta cada 10 minutos
-  workflow_dispatch:  # Permite ejecutarlo manualmente si es necesario
+    - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
+  workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub
+
+permissions:
+  contents: write  # Permite hacer commit y push en el repositorio
 
 jobs:
   run_scraper:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Clonar repositorio
+      - name: 📥 Clonar el repositorio
         uses: actions/checkout@v4
 
       - name: 🐍 Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.x'
 
-      - name: 📦 Instalar dependencias
-        run: pip install selenium
+      - name: 🛠 Instalar dependencias necesarias
+        run: |
+          sudo apt update
+          sudo apt install -y unzip wget
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get -f install -y
+          CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
+          wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip
+          unzip chromedriver.zip
+          sudo mv chromedriver /usr/local/bin/
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # Asegúrate de que este archivo existe
 
-      - name: 🚀 Ejecutar script
+      - name: 🚀 Ejecutar el scraper
         run: python scraper.py
 
-      - name: 💾 Confirmar cambios
+      - name: 💾 Confirmar cambios en el JSON
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add wait-times.json
-          git commit -m "Actualización automática de tiempos de espera" || echo "No hay cambios"
+          git commit -m "🔄 Actualización automática de tiempos de espera" --allow-empty
           git push
