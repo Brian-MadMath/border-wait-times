@@ -26,13 +26,14 @@ jobs:
           sudo apt update
           sudo apt install -y wget unzip google-chrome-stable
 
-      - name: 🔧 Instalar ChromeDriver compatible
+          - name: 🔧 Instalar ChromeDriver compatible
         run: |
-          CHROME_MAJOR_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1)
-          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_VERSION")
+          CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
+          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE")
           wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
+          chmod +x /usr/local/bin/chromedriver
           chromedriver --version
 
       - name: 🚀 Ejecutar scraper
