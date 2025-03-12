@@ -26,6 +26,11 @@ jobs:
           sudo apt update
           sudo apt install -y wget unzip google-chrome-stable
 
+      - name: 🔧 Instalar librerías de Python desde requirements.txt
+        run: |
+          pip install -r requirements.txt
+
+
       - name: 🔧 Instalar ChromeDriver compatible
         run: |
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
