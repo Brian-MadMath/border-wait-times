@@ -1,9 +1,9 @@
 name: Ejecutar Scraper
 
 on:
-  workflow_dispatch:  # Permite ejecutar el workflow manualmente
   schedule:
-    - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,29 +20,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
-
-      - name: 🛠 Instalar Google Chrome y ChromeDriver compatibles
-        run: |
-          sudo apt update
-          sudo apt install -y unzip wget curl jq
-
-          # Instalar Google Chrome
-          wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome.deb || sudo apt-get -f install -y
-          
-          # Verificar versión de Chrome
-          CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
-          echo "✅ Versión de Chrome detectada: $CHROME_VERSION"
-
-          # Descargar la versión correcta de ChromeDriver
-          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip"
-          unzip chromedriver.zip
-          sudo mv chromedriver /usr/local/bin/
-          
-          # Verificar versión de ChromeDriver
-          CHROMEDRIVER_VERSION=$(chromedriver --version | awk '{print $2}')
-          echo "✅ Versión de ChromeDriver instalada: $CHROMEDRIVER_VERSION"
 
       - name: 🛠 Instalar dependencias
         run: |
