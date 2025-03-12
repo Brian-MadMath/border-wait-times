@@ -1,7 +1,6 @@
 name: Ejecutar Scraper
 
 on:
-on:
   workflow_dispatch:  # Permite ejecutar el workflow manualmente
   schedule:
     - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
@@ -45,8 +44,6 @@ jobs:
           CHROMEDRIVER_VERSION=$(chromedriver --version | awk '{print $2}')
           echo "✅ Versión de ChromeDriver instalada: $CHROMEDRIVER_VERSION"
 
-
-=======
       - name: 🛠 Instalar dependencias
         run: |
           sudo apt update
@@ -65,7 +62,6 @@ jobs:
         run: |
           pip install selenium
           python scraper.py
->>>>>>> Stashed changes
 
       - name: 💾 Commit y push
         run: |
