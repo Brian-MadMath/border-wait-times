@@ -67,9 +67,15 @@ for seccion in secciones_garitas:
 # Cerrar Selenium
 driver.quit()
 
+# Agregar timestamp al JSON
+from datetime import datetime
+fecha_actualizacion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+datos_garitas["ultima_actualizacion"] = fecha_actualizacion
+
 # Guardar datos en JSON
 with open("wait-times.json", "w", encoding="utf-8") as file:
     json.dump(datos_garitas, file, indent=4, ensure_ascii=False)
 
 print(f"\n📂 Datos guardados en 'wait-times.json'")
+print(f"🕒 Última actualización: {fecha_actualizacion}")
 print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
