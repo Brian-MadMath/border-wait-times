@@ -21,43 +21,28 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 🛠 Instalar dependencias necesarias
+           - name: 🛠 Instalar Google Chrome y ChromeDriver compatibles
         run: |
-          set -e  # Detener ejecución si ocurre un error
-          
           sudo apt update
           sudo apt install -y unzip wget curl jq
 
-          # ✅ OBTENER VERSIÓN DE CHROME YA INSTALADA EN GITHUB ACTIONS
-          if ! command -v google-chrome &> /dev/null; then
-              echo "❌ Google Chrome no está instalado. Abortando."
-              exit 1
-          fi
-
+          # Instalar Google Chrome
+          wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome.deb || sudo apt-get -f install -y
+          
+          # Verificar versión de Chrome
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
           echo "✅ Versión de Chrome detectada: $CHROME_VERSION"
 
-          # ✅ OBTENER CHROMEDRIVER COMPATIBLE
-          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE")
-
-          if [ -z "$CHROMEDRIVER_VERSION" ]; then
-              echo "❌ No se pudo obtener la versión de ChromeDriver. Abortando."
-              exit 1
-          fi
-
-          echo "✅ Versión de ChromeDriver detectada: $CHROMEDRIVER_VERSION"
-          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+          # Descargar la versión correcta de ChromeDriver
+          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip"
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver
+          
+          # Verificar versión de ChromeDriver
+          CHROMEDRIVER_VERSION=$(chromedriver --version | awk '{print $2}')
+          echo "✅ Versión de ChromeDriver instalada: $CHROMEDRIVER_VERSION"
 
-          # 🔍 Verificar instalación correcta
-          google-chrome --version
-          chromedriver --version
-
-          # ✅ Instalar dependencias de Python
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
 
       - name: 🚀 Ejecutar el scraper
         run: python scraper.py
