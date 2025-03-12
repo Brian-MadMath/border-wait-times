@@ -4,15 +4,15 @@ from selenium.webdriver.common.by import By
 import time
 import json
 
-# Especificar la ruta correcta de ChromeDriver en GitHub Actions
+# Especificar ruta de ChromeDriver
 CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
 
 # Configurar Selenium con ChromeDriver
-service = Service(CHROMEDRIVER_PATH)  # Asegurar que use la ruta correcta
+service = Service(CHROMEDRIVER_PATH)
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")  # No abrir ventana real
-options.add_argument("--no-sandbox")  # Requerido en algunos entornos
-options.add_argument("--disable-dev-shm-usage")  # Mejora estabilidad en contenedores
+options.add_argument("--headless")  
+options.add_argument("--no-sandbox")  
+options.add_argument("--disable-dev-shm-usage")  
 
 driver = webdriver.Chrome(service=service, options=options)
 
