@@ -2,13 +2,13 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "1 línea abierta"
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "32 minutos",
-            "líneas_abiertas": "3 líneas abiertas"
+            "tiempo": "16 minutos",
+            "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "ReadyLane",
@@ -17,41 +17,41 @@
         },
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "6 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:08 horas",
-            "líneas_abiertas": "4 líneas abiertas"
+            "tiempo": "2:24 horas",
+            "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "12 líneas abiertas"
+            "tiempo": "33 minutos",
+            "líneas_abiertas": "8 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:17 horas",
-            "líneas_abiertas": "11 líneas abiertas"
+            "tiempo": "1:18 horas",
+            "líneas_abiertas": "14 líneas abiertas"
         },
         {
             "tipo": "General",
             "tiempo": "32 minutos",
-            "líneas_abiertas": "20 líneas abiertas"
+            "líneas_abiertas": "10 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta"
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "10 líneas abiertas"
         }
     ],
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "21 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "4 líneas abiertas"
         },
         {
@@ -60,5 +60,5 @@
             "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-12 14:55:15"
+    "Ultima_actualizacion": "2025-03-12 15:35:20"
 }
