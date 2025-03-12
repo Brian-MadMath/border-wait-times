@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.x'
 
-           - name: 🛠 Instalar Google Chrome y ChromeDriver compatibles
+      - name: 🛠 Instalar Google Chrome y ChromeDriver compatibles
         run: |
           sudo apt update
           sudo apt install -y unzip wget curl jq
@@ -42,6 +42,7 @@ jobs:
           # Verificar versión de ChromeDriver
           CHROMEDRIVER_VERSION=$(chromedriver --version | awk '{print $2}')
           echo "✅ Versión de ChromeDriver instalada: $CHROMEDRIVER_VERSION"
+
 
 
       - name: 🚀 Ejecutar el scraper
