@@ -26,10 +26,10 @@ jobs:
           sudo apt update
           sudo apt install -y unzip wget curl
 
-          # Instalar Google Chrome correctamente
+          # Instalar Google Chrome
           wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo dpkg -i google-chrome.deb || sudo apt-get -f install -y
-          
+
           # Verificar instalación de Chrome
           if ! command -v google-chrome &> /dev/null
           then
@@ -37,15 +37,21 @@ jobs:
               exit 1
           fi
 
-          # Instalar ChromeDriver en base a la versión instalada de Chrome
+          # Instalar ChromeDriver
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
-          wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip || wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
+          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip"
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
 
+          # Verificar si requirements.txt existe antes de instalar dependencias
+          if [ ! -f "requirements.txt" ]; then
+              echo "❌ No se encontró requirements.txt"
+              exit 1
+          fi
+
           # Instalar dependencias de Python
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Asegúrate de que este archivo existe
+          pip install -r requirements.txt
 
       - name: 🚀 Ejecutar el scraper
         run: python scraper.py
