@@ -1,23 +1,18 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager  # Importar WebDriver Manager
 import time
 import json
 
-# Especificar ruta de ChromeDriver
-CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
-
-# Configurar Selenium con ChromeDriver
-
-service = Service(CHROMEDRIVER_PATH)
-
+# Configurar Selenium con WebDriver Manager
+service = Service(ChromeDriverManager().install())  # Descarga e instala automáticamente el driver
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")  
 options.add_argument("--no-sandbox")  
 options.add_argument("--disable-dev-shm-usage")  
 
 driver = webdriver.Chrome(service=service, options=options)
-
 
 # URL de Bordify (Página con todas las garitas de Tijuana)
 URL = "https://bordify.com/?city=tijuana"
@@ -72,30 +67,9 @@ for seccion in secciones_garitas:
 # Cerrar Selenium
 driver.quit()
 
-# Mostrar resultados organizados en la terminal
-print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
-
-# Mostrar los errores al final, si los hay
-if errores:
-    print("\n❌ Errores encontrados durante la ejecución:")
-    for error in errores:
-        print("-", error)
-else:
-    print("\n✅ Script finalizado sin errores.")
-
-
-from datetime import datetime
-
-# Obtener la fecha y hora actual en formato legible
-fecha_actualizacion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-# Agregar la fecha de última actualización al JSON
-datos_garitas["ultima_actualizacion"] = fecha_actualizacion
-
-# Guardar el JSON con la información y la fecha de actualización
+# Guardar datos en JSON
 with open("wait-times.json", "w", encoding="utf-8") as file:
     json.dump(datos_garitas, file, indent=4, ensure_ascii=False)
 
 print(f"\n📂 Datos guardados en 'wait-times.json'")
-print(f"🕒 Última actualización: {fecha_actualizacion}")
-print(f"\n")
+print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
