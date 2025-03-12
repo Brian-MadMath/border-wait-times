@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 🛠 Instalar dependencias necesarias
+           - name: 🛠 Instalar dependencias necesarias
         run: |
           sudo apt update
           sudo apt install -y unzip wget curl
@@ -42,16 +42,12 @@ jobs:
           wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip"
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
-
-          # Verificar si requirements.txt existe antes de instalar dependencias
-          if [ ! -f "requirements.txt" ]; then
-              echo "❌ No se encontró requirements.txt"
-              exit 1
-          fi
+          sudo chmod +x /usr/local/bin/chromedriver  # Asegurar permisos
 
           # Instalar dependencias de Python
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
 
       - name: 🚀 Ejecutar el scraper
         run: python scraper.py
