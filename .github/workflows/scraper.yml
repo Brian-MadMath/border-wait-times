@@ -21,35 +21,32 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 🛠 Instalar Google Chrome y ChromeDriver
+      - name: 🛠 Instalar Google Chrome 114 y ChromeDriver
         run: |
           sudo apt update
           sudo apt install -y unzip wget curl jq
 
-          # Descargar e instalar Google Chrome estable
-          wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          # Eliminar versiones previas de Chrome
+          sudo apt remove -y google-chrome-stable || true
+
+          # Descargar e instalar Chrome 114 manualmente
+          wget -q -O google-chrome.deb https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.90-1_amd64.deb
           sudo dpkg -i google-chrome.deb || sudo apt-get install -f -y
 
-          # Si Chrome no se instaló, intentar de nuevo
+          # Verificar instalación correcta
           if ! command -v google-chrome &> /dev/null; then
-              echo "❌ Error: Google Chrome no se instaló correctamente"
+              echo "❌ Google Chrome no se instaló correctamente"
               exit 1
           fi
 
-          # Obtener versión de Chrome instalada
-          CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
-          echo "✅ Google Chrome instalado: Versión $CHROME_VERSION"
-
-          # Descargar ChromeDriver que coincida con la versión de Chrome
-          LATEST_DRIVER=$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION)
-          wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/$LATEST_DRIVER/chromedriver_linux64.zip
-
-          # Extraer y mover ChromeDriver
+          # Descargar ChromeDriver 114 manualmente
+          wget -q -O chromedriver.zip https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
           sudo chmod +x /usr/local/bin/chromedriver
 
-          # Confirmar instalación de ChromeDriver
+          # Confirmar versiones instaladas
+          google-chrome --version
           chromedriver --version
 
           # Instalar dependencias de Python
