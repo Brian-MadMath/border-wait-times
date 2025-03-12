@@ -8,9 +8,9 @@ import json
 # Configurar Selenium con WebDriver Manager
 service = Service(ChromeDriverManager().install())  # Descarga e instala automáticamente el driver
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")  
-options.add_argument("--no-sandbox")  
-options.add_argument("--disable-dev-shm-usage")  
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(service=service, options=options)
 
@@ -70,7 +70,12 @@ driver.quit()
 # Agregar timestamp al JSON
 from datetime import datetime
 fecha_actualizacion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-datos_garitas["ultima_actualizacion"] = fecha_actualizacion
+datos_garitas["Ultima_actualizacion"] = fecha_actualizacion
+
+# Imprimir los datos guardados en la terminal de manera legible
+print("\n📊 Datos de tiempos de espera:")
+print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
+
 
 # Guardar datos en JSON
 with open("wait-times.json", "w", encoding="utf-8") as file:
