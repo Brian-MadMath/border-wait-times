@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.x'
 
-           - name: 🛠 Instalar dependencias necesarias
+              - name: 🛠 Instalar dependencias necesarias
         run: |
           sudo apt update
           sudo apt install -y unzip wget curl
@@ -29,20 +29,22 @@ jobs:
           # Instalar Google Chrome
           wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo dpkg -i google-chrome.deb || sudo apt-get -f install -y
-
+          
           # Verificar instalación de Chrome
-          if ! command -v google-chrome &> /dev/null
-          then
-              echo "❌ Google Chrome no se instaló correctamente"
-              exit 1
-          fi
-
-          # Instalar ChromeDriver
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
-          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip"
+          echo "✅ Versión de Chrome instalada: $CHROME_VERSION"
+
+          # Descargar la versión compatible de ChromeDriver
+          CHROMEDRIVER_VERSION=$(curl -sS "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | jq -r '.channels.Stable.version')
+          wget -q -O chromedriver.zip "https://storage.googleapis.com/chrome-for-testing-public/$CHROMEDRIVER_VERSION/linux64/chromedriver-linux64.zip"
+
+          # Extraer y mover ChromeDriver
           unzip chromedriver.zip
-          sudo mv chromedriver /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver  # Asegurar permisos
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
+
+          # Confirmar versión instalada
+          chromedriver --version
 
           # Instalar dependencias de Python
           python -m pip install --upgrade pip
