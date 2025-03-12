@@ -8,7 +8,11 @@ import json
 CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
 
 # Configurar Selenium con ChromeDriver
+<<<<<<< Updated upstream
 service = Service(CHROMEDRIVER_PATH)
+=======
+service = Service("/usr/local/bin/chromedriver")  # Ruta en Ubuntu
+>>>>>>> Stashed changes
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")  
 options.add_argument("--no-sandbox")  

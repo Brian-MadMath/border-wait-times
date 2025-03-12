@@ -1,19 +1,19 @@
-name: Ejecutar Scraper y Actualizar JSON
+name: Ejecutar Scraper
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
-  workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Permite hacer commit y push en el repositorio
+  contents: write
 
 jobs:
   run_scraper:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Clonar el repositorio
+      - name: 📥 Clonar repositorio
         uses: actions/checkout@v4
 
       - name: 🐍 Configurar Python
@@ -21,6 +21,7 @@ jobs:
         with:
           python-version: '3.x'
 
+<<<<<<< Updated upstream
       - name: 🛠 Instalar Google Chrome y ChromeDriver compatibles
         run: |
           sudo apt update
@@ -44,14 +45,31 @@ jobs:
           echo "✅ Versión de ChromeDriver instalada: $CHROMEDRIVER_VERSION"
 
 
+=======
+      - name: 🛠 Instalar dependencias
+        run: |
+          sudo apt update
+          sudo apt install -y wget unzip google-chrome-stable
 
-      - name: 🚀 Ejecutar el scraper
-        run: python scraper.py
+      - name: 🔧 Instalar ChromeDriver compatible
+        run: |
+          CHROME_MAJOR_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1)
+          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_VERSION")
+          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+          unzip chromedriver.zip
+          sudo mv chromedriver /usr/local/bin/
+          chromedriver --version
 
-      - name: 💾 Confirmar cambios en el JSON
+      - name: 🚀 Ejecutar scraper
+        run: |
+          pip install selenium
+          python scraper.py
+>>>>>>> Stashed changes
+
+      - name: 💾 Commit y push
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.email "actions@github.com"
           git add wait-times.json
-          git commit -m "🔄 Actualización automática de tiempos de espera" --allow-empty
+          git commit -m "🔄 Actualización automática: $(date +'%Y-%m-%d %H:%M')" || echo "Sin cambios"
           git push
