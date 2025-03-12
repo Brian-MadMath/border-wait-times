@@ -23,15 +23,29 @@ jobs:
 
       - name: 🛠 Instalar dependencias necesarias
         run: |
+          set -e  # Detener ejecución si ocurre un error
+          
           sudo apt update
           sudo apt install -y unzip wget curl jq
 
           # ✅ OBTENER VERSIÓN DE CHROME YA INSTALADA EN GITHUB ACTIONS
+          if ! command -v google-chrome &> /dev/null; then
+              echo "❌ Google Chrome no está instalado. Abortando."
+              exit 1
+          fi
+
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
           echo "✅ Versión de Chrome detectada: $CHROME_VERSION"
 
-          # ✅ DESCARGAR CHROMEDRIVER EXACTO PARA ESTA VERSIÓN DE CHROME
+          # ✅ OBTENER CHROMEDRIVER COMPATIBLE
           CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+
+          if [ -z "$CHROMEDRIVER_VERSION" ]; then
+              echo "❌ No se pudo obtener la versión de ChromeDriver. Abortando."
+              exit 1
+          fi
+
+          echo "✅ Versión de ChromeDriver detectada: $CHROMEDRIVER_VERSION"
           wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
           unzip chromedriver.zip
           sudo mv chromedriver /usr/local/bin/
