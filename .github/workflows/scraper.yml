@@ -38,7 +38,7 @@ jobs:
           echo "✅ Versión de Chrome detectada: $CHROME_VERSION"
 
           # ✅ OBTENER CHROMEDRIVER COMPATIBLE
-          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE")
 
           if [ -z "$CHROMEDRIVER_VERSION" ]; then
               echo "❌ No se pudo obtener la versión de ChromeDriver. Abortando."
