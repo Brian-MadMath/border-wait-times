@@ -69,8 +69,11 @@ driver.quit()
 
 # Agregar timestamp al JSON
 from datetime import datetime
-fecha_actualizacion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-datos_garitas["Ultima_actualizacion"] = fecha_actualizacion
+from zoneinfo import ZoneInfo
+
+# Obtener la hora actual en la zona de Tijuana
+fecha_actualizacion = datetime.now(ZoneInfo("America/Tijuana")).strftime("%Y-%m-%d %H:%M:%S")
+
 
 # Imprimir los datos guardados en la terminal de manera legible
 print("\n📊 Datos de tiempos de espera:")
@@ -82,5 +85,5 @@ with open("wait-times.json", "w", encoding="utf-8") as file:
     json.dump(datos_garitas, file, indent=4, ensure_ascii=False)
 
 print(f"\n📂 Datos guardados en 'wait-times.json'")
-print(f"🕒 Última actualización: {fecha_actualizacion}")
+print("Última actualización:", fecha_actualizacion)
 print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
