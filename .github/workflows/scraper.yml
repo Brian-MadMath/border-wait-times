@@ -1,9 +1,10 @@
 name: Ejecutar Scraper
 
 on:
+on:
+  workflow_dispatch:  # Permite ejecutar el workflow manualmente
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+    - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
 
 permissions:
   contents: write
