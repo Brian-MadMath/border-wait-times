@@ -4,12 +4,18 @@ from selenium.webdriver.common.by import By
 import time
 import json
 
+# Especificar la ruta correcta de ChromeDriver en GitHub Actions
+CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
+
 # Configurar Selenium con ChromeDriver
-service = Service("/opt/homebrew/bin/chromedriver")  # Ajusta según tu instalación
+service = Service(CHROMEDRIVER_PATH)  # Asegurar que use la ruta correcta
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")  # No abrir ventana real
+options.add_argument("--no-sandbox")  # Requerido en algunos entornos
+options.add_argument("--disable-dev-shm-usage")  # Mejora estabilidad en contenedores
 
 driver = webdriver.Chrome(service=service, options=options)
+
 
 # URL de Bordify (Página con todas las garitas de Tijuana)
 URL = "https://bordify.com/?city=tijuana"
