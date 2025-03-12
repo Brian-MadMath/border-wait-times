@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.x'
 
-<<<<<<< Updated upstream
+
       - name: 🛠 Instalar Google Chrome y ChromeDriver compatibles
         run: |
           sudo apt update
