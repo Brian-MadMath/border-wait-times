@@ -24,19 +24,19 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
+            "tiempo": "1:04 horas",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "3 líneas abiertas"
+            "tiempo": "Sin demora",
+            "líneas_abiertas": "2 líneas abiertas"
         }
     ],
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "59 minutos",
+            "tiempo": "1:26 horas",
             "líneas_abiertas": "6 líneas abiertas"
         },
         {
@@ -60,5 +60,5 @@
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 16:02:24"
+    "Ultima_actualizacion": "2025-03-13 16:28:39"
 }
