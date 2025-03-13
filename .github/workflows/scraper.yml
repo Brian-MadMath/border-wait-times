@@ -1,4 +1,4 @@
-name: Ejecutar Scraper
+name: Ejecutar Scrapers
 
 on:
   schedule:
@@ -41,15 +41,19 @@ jobs:
           chmod +x /usr/local/bin/chromedriver
           chromedriver --version
 
-      - name: 🚀 Ejecutar scraper  # ← Corregido el nivel de indentación
+      - name: 🚀 Ejecutar scrapers  # ← Corregido el nivel de indentación
         run: |
           pip install selenium webdriver-manager
           python scraper-tijuana.py
+          python scraper-tecate.py
+          python scraper-mexicali.py
 
       - name: 💾 Commit y push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add wait-times-tijuana.json
+          git add wait-times-tecate.json
+          git add wait-times-mexicali.json
           git commit -m "🔄 Actualización automática: $(date +'%Y-%m-%d %H:%M')" || echo "Sin cambios"
           git push
