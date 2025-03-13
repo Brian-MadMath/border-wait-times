@@ -12,35 +12,35 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "16 minutos",
+            "tiempo": "37 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "1:49 horas",
+            "tiempo": "49 minutos",
             "líneas_abiertas": "6 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "44 minutos",
+            "tiempo": "1:41 horas",
             "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "19 minutos",
+            "tiempo": "20 minutos",
             "líneas_abiertas": "9 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:22 horas",
+            "tiempo": "1:04 horas",
             "líneas_abiertas": "11 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "9 minutos",
-            "líneas_abiertas": "16 líneas abiertas"
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "20 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -60,5 +60,5 @@
             "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 11:56:19"
+    "Ultima_actualizacion": "2025-03-13 12:23:08"
 }
