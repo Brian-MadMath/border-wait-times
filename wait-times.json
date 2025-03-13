@@ -2,7 +2,7 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "1 línea abierta"
         },
         {
@@ -12,13 +12,13 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "General",
             "tiempo": "Sin demora",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "3 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
@@ -60,5 +60,5 @@
             "líneas_abiertas": "0 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 00:58:58"
+    "Ultima_actualizacion": "2025-03-13 01:46:06"
 }
