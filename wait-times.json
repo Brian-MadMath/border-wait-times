@@ -2,7 +2,7 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "1 línea abierta"
         },
         {
@@ -12,40 +12,40 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "29 minutos",
+            "tiempo": "21 minutos",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
+            "tiempo": "Sin demora",
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "12 minutos",
-            "líneas_abiertas": "4 líneas abiertas"
+            "tiempo": "9 minutos",
+            "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:03 horas",
-            "líneas_abiertas": "11 líneas abiertas"
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "10 líneas abiertas"
         },
         {
             "tipo": "General",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "12 líneas abiertas"
+            "líneas_abiertas": "10 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta"
+            "tiempo": "1 minuto",
+            "líneas_abiertas": "3 líneas abiertas"
         }
     ],
     "Garita Chaparral": [
@@ -60,5 +60,5 @@
             "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-12 22:55:20"
+    "Ultima_actualizacion": "2025-03-12 23:46:36"
 }
