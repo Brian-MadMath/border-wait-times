@@ -12,34 +12,34 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "54 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "1:15 horas",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "6 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:01 horas",
+            "tiempo": "1:10 horas",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
+            "tiempo": "18 minutos",
             "líneas_abiertas": "7 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "57 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "7 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "9 minutos",
             "líneas_abiertas": "13 líneas abiertas"
         },
         {
@@ -51,7 +51,7 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "9 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
@@ -60,5 +60,5 @@
             "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 09:59:47"
+    "Ultima_actualizacion": "2025-03-13 10:32:50"
 }
