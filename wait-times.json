@@ -51,14 +51,14 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "",
-            "líneas_abiertas": "0 líneas abiertas"
+            "tiempo": "1:15 horas",
+            "líneas_abiertas": "4 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "",
-            "líneas_abiertas": "0 líneas abiertas"
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 06:18:08"
+    "Ultima_actualizacion": "2025-03-13 06:44:06"
 }
