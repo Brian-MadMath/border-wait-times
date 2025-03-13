@@ -86,9 +86,9 @@ print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
 # Guardar datos en JSON
 
 datos_garitas["Ultima_actualizacion"] = fecha_actualizacion
-with open("wait-times.json", "w", encoding="utf-8") as file:
+with open("wait-times-tijuana.json", "w", encoding="utf-8") as file:
     json.dump(datos_garitas, file, indent=4, ensure_ascii=False)
 
-print(f"\n📂 Datos guardados en 'wait-times.json'")
+print(f"\n📂 Datos guardados en 'wait-times-tijuana.json'")
 print(f"🕒 Última actualización: {fecha_actualizacion}")
 print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
