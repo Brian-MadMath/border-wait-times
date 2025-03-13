@@ -2,45 +2,45 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "24 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
+            "tiempo": "1:49 horas",
             "líneas_abiertas": "6 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:10 horas",
-            "líneas_abiertas": "3 líneas abiertas"
+            "tiempo": "44 minutos",
+            "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "18 minutos",
-            "líneas_abiertas": "7 líneas abiertas"
+            "tiempo": "19 minutos",
+            "líneas_abiertas": "9 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "48 minutos",
-            "líneas_abiertas": "7 líneas abiertas"
+            "tiempo": "1:22 horas",
+            "líneas_abiertas": "11 líneas abiertas"
         },
         {
             "tipo": "General",
             "tiempo": "9 minutos",
-            "líneas_abiertas": "13 líneas abiertas"
+            "líneas_abiertas": "16 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -51,8 +51,8 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "9 minutos",
-            "líneas_abiertas": "3 líneas abiertas"
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "4 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -60,5 +60,5 @@
             "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 10:55:40"
+    "Ultima_actualizacion": "2025-03-13 11:46:30"
 }
