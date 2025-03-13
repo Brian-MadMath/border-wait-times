@@ -7,17 +7,17 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "59 minutos",
-            "líneas_abiertas": "3 líneas abiertas"
+            "líneas_abiertas": "6 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "6 líneas abiertas"
         }
     ],
@@ -60,5 +60,5 @@
             "líneas_abiertas": "1 línea abierta"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 13:33:57"
+    "Ultima_actualizacion": "2025-03-13 13:45:20"
 }
