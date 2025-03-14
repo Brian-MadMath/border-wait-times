@@ -2,44 +2,44 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "16 minutos",
+            "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "Sentri",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta"
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "31 minutos",
-            "líneas_abiertas": "4 líneas abiertas"
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "General",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "6 líneas abiertas"
+            "líneas_abiertas": "3 líneas abiertas"
         }
     ],
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "40 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "45 minutos",
+            "tiempo": "23 minutos",
             "líneas_abiertas": "9 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "39 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "16 líneas abiertas"
         },
         {
@@ -60,5 +60,5 @@
             "líneas_abiertas": "0 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 20:50:46"
+    "Ultima_actualizacion": "2025-03-13 21:38:40"
 }

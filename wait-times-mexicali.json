@@ -2,18 +2,18 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "1 línea abierta"
+            "tiempo": "16 minutos",
+            "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "3 líneas abiertas"
+            "tiempo": "1:20 horas",
+            "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "General",
@@ -24,25 +24,25 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "Sin demora",
-            "líneas_abiertas": "1 línea abierta"
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas"
         }
     ],
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "6 líneas abiertas"
+            "tiempo": "59 minutos",
+            "líneas_abiertas": "5 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "27 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -51,14 +51,14 @@
         },
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "32 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 20:51:00"
+    "Ultima_actualizacion": "2025-03-13 21:38:55"
 }
