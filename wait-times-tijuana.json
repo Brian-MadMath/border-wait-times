@@ -12,7 +12,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "32 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "1 línea abierta"
         },
         {
@@ -34,7 +34,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "23 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "7 líneas abiertas"
         },
         {
@@ -60,5 +60,5 @@
             "líneas_abiertas": "0 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 21:58:08"
+    "Ultima_actualizacion": "2025-03-13 22:34:29"
 }
