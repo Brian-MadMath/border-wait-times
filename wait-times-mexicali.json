@@ -3,22 +3,22 @@
         {
             "tipo": "General",
             "tiempo": "48 minutos",
-            "líneas_abiertas": "1 línea abierta"
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "Sentri",
             "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "1:20 horas",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "General",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "4 líneas abiertas"
+            "líneas_abiertas": "0 líneas abiertas"
         }
     ],
     "Garita Los Algodones": [
@@ -36,13 +36,13 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "7 líneas abiertas"
+            "tiempo": "1:47 horas",
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "Sentri",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -52,13 +52,13 @@
         {
             "tipo": "General",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "0 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "3 líneas abiertas"
+            "líneas_abiertas": "0 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 23:55:35"
+    "Ultima_actualizacion": "2025-03-14 00:29:43"
 }
