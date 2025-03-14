@@ -24,7 +24,7 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
@@ -55,5 +55,5 @@
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-14 08:48:55"
+    "Ultima_actualizacion": "2025-03-14 08:58:29"
 }
