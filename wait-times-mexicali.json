@@ -2,18 +2,18 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "Sentri",
             "tiempo": "24 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "1 línea abierta"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:20 horas",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "General",
@@ -24,7 +24,7 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "2 líneas abiertas"
         },
         {
@@ -36,13 +36,13 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "4 líneas abiertas"
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "6 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "33 minutos",
-            "líneas_abiertas": "5 líneas abiertas"
+            "tiempo": "27 minutos",
+            "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -60,5 +60,5 @@
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 20:01:57"
+    "Ultima_actualizacion": "2025-03-13 20:51:00"
 }
