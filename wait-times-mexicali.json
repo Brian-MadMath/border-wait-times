@@ -7,13 +7,13 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "48 minutos",
-            "líneas_abiertas": "3 líneas abiertas"
+            "tiempo": "56 minutos",
+            "líneas_abiertas": "2 líneas abiertas"
         },
         {
             "tipo": "General",
@@ -36,18 +36,13 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:23 horas",
+            "tiempo": "1:28 horas",
             "líneas_abiertas": "6 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "5 líneas abiertas"
-        },
-        {
-            "tipo": "ReadyLane",
-            "tiempo": "",
-            "líneas_abiertas": "0 líneas abiertas"
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "4 líneas abiertas"
         },
         {
             "tipo": "General",
@@ -60,5 +55,5 @@
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-14 07:56:52"
+    "Ultima_actualizacion": "2025-03-14 08:33:04"
 }
