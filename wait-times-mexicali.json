@@ -36,7 +36,7 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "52 minutos",
+            "tiempo": "1:36 horas",
             "líneas_abiertas": "7 líneas abiertas"
         },
         {
@@ -60,5 +60,5 @@
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-13 22:55:42"
+    "Ultima_actualizacion": "2025-03-13 23:45:54"
 }
