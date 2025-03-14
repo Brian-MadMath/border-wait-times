@@ -1,5 +1,5 @@
 {
-    "Garita Nuevo Mexicali": [
+    "Garita Nuevo  Mexicali": [
         {
             "tipo": "General",
             "tiempo": "21 minutos",
@@ -36,13 +36,13 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "44 minutos",
+            "tiempo": "35 minutos",
             "líneas_abiertas": "7 líneas abiertas"
         },
         {
             "tipo": "Sentri",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
@@ -51,14 +51,14 @@
         },
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "3 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "24 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "3 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-14 06:05:34"
+    "Ultima_actualizacion": "2025-03-14 06:38:46"
 }

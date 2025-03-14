@@ -24,28 +24,28 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "8 líneas abiertas"
+            "tiempo": "2:00 horas",
+            "líneas_abiertas": "6 líneas abiertas"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "20 minutos",
-            "líneas_abiertas": "2 líneas abiertas"
+            "tiempo": "29 minutos",
+            "líneas_abiertas": "8 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "54 minutos",
-            "líneas_abiertas": "18 líneas abiertas"
+            "tiempo": "1:26 horas",
+            "líneas_abiertas": "14 líneas abiertas"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "7 líneas abiertas"
+            "tiempo": "16 minutos",
+            "líneas_abiertas": "20 líneas abiertas"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "7 líneas abiertas"
+            "líneas_abiertas": "1 línea abierta"
         }
     ],
     "Garita Chaparral": [
@@ -60,5 +60,5 @@
             "líneas_abiertas": "0 líneas abiertas"
         }
     ],
-    "Ultima_actualizacion": "2025-03-14 06:05:20"
+    "Ultima_actualizacion": "2025-03-14 06:38:31"
 }
