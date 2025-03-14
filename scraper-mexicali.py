@@ -1,12 +1,15 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager  # Importar WebDriver Manager
-import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import json
+from datetime import datetime
+import pytz
 
 # Configurar Selenium con WebDriver Manager
-service = Service(ChromeDriverManager().install())  # Descarga e instala automáticamente el driver
+service = Service(ChromeDriverManager().install())
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
@@ -14,53 +17,86 @@ options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(service=service, options=options)
 
-# URL de Bordify (Página con todas las garitas de mexicali)
+# URL de Bordify (Página con todas las garitas de Mexicali)
 URL = "https://bordify.com/?city=mexicali"
 driver.get(URL)
 
-# Esperar que la página cargue completamente
-time.sleep(5)
+# Esperar explícitamente a que carguen las secciones principales
+WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "bg-white.shadow.rounded"))
+)
 
 # Diccionario para guardar los tiempos de espera organizados por garita
 datos_garitas = {}
-errores = []  # Lista para almacenar los errores
+errores = []
 
 # Buscar todas las secciones de garitas en la página
 secciones_garitas = driver.find_elements(By.CLASS_NAME, "bg-white.shadow.rounded")
 
 for seccion in secciones_garitas:
     try:
-        # Extraer nombre de la garita y limpiar espacios innecesarios
         nombre_garita = seccion.find_element(By.CLASS_NAME, "text-base.md\\:text-lg.leading-6.font-medium.text-gray-900").text.replace("Desde", "").strip()
         datos_garitas[nombre_garita] = []
 
-        # Buscar los bloques de cruce dentro de la garita
-        bloques_cruce = seccion.find_elements(By.CLASS_NAME, "focus\\:outline-none")
+        # 🔹 Buscar los bloques de cruce en la sección (donde están juntos color, icono y datos)
+        bloques_cruce = seccion.find_elements(By.CLASS_NAME, "flex.py-4.px-2.sm\\:px-4.items-center.space-x-3")
 
-        for cruce in bloques_cruce:
+        for bloque in bloques_cruce:
             try:
-                tipo = cruce.find_element(By.CLASS_NAME, "text-sm.text-gray-900.truncate").text.strip()
-            except Exception as e:
-                tipo = "No disponible"
-                errores.append(f"Error obteniendo tipo en {nombre_garita}: {e}")
+                color = "gray"  # Default
+                icono = "desconocido"  # Default
 
-            try:
-                tiempo = cruce.find_element(By.CLASS_NAME, "text-lg.font-medium.text-gray-900.leading-6").text.strip()
-            except Exception as e:
-                tiempo = "No disponible"
-                errores.append(f"Error obteniendo tiempo en {nombre_garita}: {e}")
+                # 🔹 Extraer el color desde el div correspondiente
+                try:
+                    icon_div = bloque.find_element(By.CSS_SELECTOR, "div.inline-block.relative div.h-14.w-14.rounded-full")
+                    class_list = icon_div.get_attribute("class")
 
-            try:
-                lineas = cruce.find_element(By.CLASS_NAME, "text-sm.text-gray-500.truncate").text.strip()
-            except Exception as e:
-                lineas = "No disponible"
-                errores.append(f"Error obteniendo líneas abiertas en {nombre_garita}: {e}")
+                    print(f"🔍 Clases encontradas en {nombre_garita}: {class_list}")
 
-            datos_garitas[nombre_garita].append({
-                "tipo": tipo,
-                "tiempo": tiempo,
-                "líneas_abiertas": lineas
-            })
+                    if "bg-red-500" in class_list or "bg-red-400" in class_list:
+                        color = "red"
+                    elif "bg-yellow-500" in class_list or "bg-yellow-400" in class_list:
+                        color = "yellow"
+                    elif "bg-emerald-500" in class_list or "bg-green-500" in class_list or "bg-green-400" in class_list:
+                        color = "green"
+
+                except Exception as e:
+                    errores.append(f"Error obteniendo color en {nombre_garita}: {e}")
+
+                # 🔹 Extraer el icono (vehicular o peatonal)
+                try:
+                    icon_element = icon_div.find_element(By.TAG_NAME, "i")  # Buscar el <i> dentro del div del color
+                    icon_classes = icon_element.get_attribute("class")  # Obtener clases
+
+                    if "fa-car" in icon_classes:
+                        icono = "vehicular"
+                    elif "fa-walking" in icon_classes:
+                        icono = "peatonal"
+
+                except Exception as e:
+                    errores.append(f"Error obteniendo icono en {nombre_garita}: {e}")
+
+                # 🔹 Extraer datos del cruce desde el div correspondiente
+                try:
+                    info_div = bloque.find_element(By.CLASS_NAME, "flex-1.min-w-0")
+                    tipo = info_div.find_element(By.CLASS_NAME, "text-sm.text-gray-900.truncate").text.strip()
+                    tiempo = info_div.find_element(By.CLASS_NAME, "text-lg.font-medium.text-gray-900.leading-6").text.strip()
+                    lineas = info_div.find_element(By.CLASS_NAME, "text-sm.text-gray-500.truncate").text.strip()
+                except:
+                    tipo, tiempo, lineas = "No disponible", "No disponible", "No disponible"
+
+                # Guardar los datos estructurados
+                datos_garitas[nombre_garita].append({
+                    "tipo": tipo,
+                    "tiempo": tiempo,
+                    "líneas_abiertas": lineas,
+                    "color": color,
+                    "icono": icono
+                })
+
+            except Exception as e:
+                errores.append(f"Error al procesar cruce en {nombre_garita}: {e}")
+
     except Exception as e:
         errores.append(f"Error al extraer datos de {nombre_garita}: {e}")
 
@@ -68,27 +104,15 @@ for seccion in secciones_garitas:
 driver.quit()
 
 # Agregar timestamp al JSON
-from datetime import datetime
-import pytz
-
-# Definir la zona horaria de Tijuana
 zona_horaria_tijuana = pytz.timezone("America/Tijuana")
-
-# Obtener la hora actual en la zona horaria correcta
-fecha_actualizacion = datetime.now(zona_horaria_tijuana).strftime("%Y-%m-%d %H:%M:%S")
-
-
-# Imprimir los datos guardados en la terminal de manera legible
-print("\n📊 Datos de tiempos de espera:")
-print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
-
-
-# Guardar datos en JSON
+fecha_actualizacion = datetime.now(zona_horaria_tijuana).strftime("%Y-%m-%d %H:%M")
 
 datos_garitas["Ultima_actualizacion"] = fecha_actualizacion
 with open("wait-times-mexicali.json", "w", encoding="utf-8") as file:
     json.dump(datos_garitas, file, indent=4, ensure_ascii=False)
 
+print("\n📊 Datos de tiempos de espera:")
+print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
 print(f"\n📂 Datos guardados en 'wait-times-mexicali.json'")
 print(f"🕒 Última actualización: {fecha_actualizacion}")
 print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
