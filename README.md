@@ -123,7 +123,7 @@ Si encuentras errores, verifica lo siguiente:
 
 Si tienes preguntas o mejoras, contáctanos en [tu_email@example.com](mailto:tu_email@example.com).
 
-📌 **Desarrollado por:** _[MadMath Creative Studio]_(https://www.madandmath.com/) 🚀
+📌 **Desarrollado por:** _[MadMath Creative Studio](https://www.madandmath.com/) 🚀_
 
 
 
