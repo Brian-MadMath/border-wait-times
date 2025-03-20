@@ -63,18 +63,29 @@ for seccion in secciones_garitas:
                 except Exception as e:
                     errores.append(f"Error obteniendo color en {nombre_garita}: {e}")
 
+           
                 # 🔹 Extraer el icono (vehicular o peatonal)
                 try:
-                    icon_element = icon_div.find_element(By.TAG_NAME, "i")  # Buscar el <i> dentro del div del color
-                    icon_classes = icon_element.get_attribute("class")  # Obtener clases
+                    # Primero encontrar el contenedor padre
+                    icon_parent = bloque.find_element(By.CLASS_NAME, "inline-block.relative")
+    
+                    # Luego buscar dentro del contenedor el div del icono
+                    icon_div = icon_parent.find_element(By.CLASS_NAME, "rounded-full")
+    
+                    # Verificar el título del div para determinar el tipo de icono
+                    title_text = icon_div.get_attribute("title").lower()  # Obtener el atributo "title"
 
-                    if "fa-car" in icon_classes:
-                        icono = "vehicular"
-                    elif "fa-walking" in icon_classes:
+                    if "peatonal" in title_text:
                         icono = "peatonal"
+                    elif "vehicular" in title_text:
+                        icono = "vehicular"
+                    else:
+                        icono = "desconocido"
 
                 except Exception as e:
                     errores.append(f"Error obteniendo icono en {nombre_garita}: {e}")
+
+
 
                 # 🔹 Extraer datos del cruce desde el div correspondiente
                 try:
@@ -116,5 +127,3 @@ print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
 print(f"\n📂 Datos guardados en 'wait-times-tijuana.json'")
 print(f"🕒 Última actualización: {fecha_actualizacion}")
 print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
-
-##fin del script
