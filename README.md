@@ -18,23 +18,6 @@ Un script en **JavaScript** consume estos datos para mostrarlos dinámicamente e
 - Guarda los datos en archivos **JSON**.
 - **Publica la información en un sitio web dinámico usando JavaScript.**
 
-## 📂 Estructura del Proyecto
-
-```
-📦 border-wait-times
-├── 📝 scraper-tijuana.py        # Scraper de Tijuana
-├── 📝 scraper-mexicali.py       # Scraper de Mexicali
-├── 📝 scraper-tecate.py         # Scraper de Tecate
-├── 📝 scraper.yml              # GitHub Actions para ejecución automática
-├── 📝 scraper.js               # Script en JavaScript para mostrar los datos en la web
-├── 📝 webflow script.js         # Código para incrustar datos en Webflow
-├── 📝 requirements.txt          # Dependencias necesarias
-├── 📝 config.yml                # Configuración del scraper
-├── 📝 wait-times-tijuana.json   # Datos de Tijuana
-├── 📝 wait-times-mexicali.json  # Datos de Mexicali
-├── 📝 wait-times-tecate.json    # Datos de Tecate
-├── 📝 README.md                 # Documentación del proyecto
-```
 
 ## 🛠 Instalación y Configuración
 
