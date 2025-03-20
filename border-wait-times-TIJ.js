@@ -1,18 +1,59 @@
 <div id="wait-times-wrapper"></div>
 
 
-<script>
-// <div id="wait-times-wrapper"></div>
+<div id="wait-times-wrapper"></div>
 
+<script>
 document.addEventListener('DOMContentLoaded', () => {
+  // 🔹 Detectar el idioma automáticamente
+  let idioma = "es"; // Español por defecto
+  if (window.Webflow && window.Webflow.locale) {
+    idioma = window.Webflow.locale;
+  } else if (window.location.pathname.includes("/en/")) {
+    idioma = "en";
+  }
+
+  // 🔹 Textos en distintos idiomas
+  const textos = {
+    es: {
+      actualizado: "Actualizado hace",
+      minutos: "minutos.",
+      segundos: "hace unos segundos.",
+      errorCarga: "Error cargando información de",
+      lineasAbiertas: "líneas abiertas",
+      horas: "horas",
+      minutosTiempo: "minutos",
+      garita: "Garita"
+    },
+    en: {
+      actualizado: "Updated",
+      minutos: "minutes ago.",
+      segundos: "a few seconds ago.",
+      errorCarga: "Error loading information from",
+      lineasAbiertas: "open lanes",
+      horas: "hours",
+      minutosTiempo: "minutes",
+      garita: "Port of Entry"
+    }
+  };
+
+  // 🔹 Función para traducir textos dinámicos en strings
+  function traducirTextoDinamico(texto) {
+    return texto
+      .replace("líneas abiertas", textos[idioma].lineasAbiertas)
+      .replace("horas", textos[idioma].horas)
+      .replace("minutos", textos[idioma].minutosTiempo);
+  }
+
+  // 🔹 Definir ciudad y URL
   const ciudad = "tijuana"; 
-  const URL = `https://bordify.com/?city=${ciudad}`; // Ahora usa la variable ciudad
+  const URL = `https://bordify.com/?city=${ciudad}`;
   const wrapper = document.getElementById('wait-times-wrapper'); 
   const jsonUrl = `https://brian-madmath.github.io/border-wait-times/wait-times-${ciudad}.json`;
 
   fetch(jsonUrl)
     .then(response => {
-      if (!response.ok) throw new Error(`No se pudo cargar JSON de ${ciudad}`);
+      if (!response.ok) throw new Error(`${textos[idioma].errorCarga} ${ciudad}`);
       return response.json();
     })
     .then(data => {
@@ -28,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           const garitaTitle = document.createElement('div');
           garitaTitle.classList.add("text-300", "medium");
-          garitaTitle.textContent = garita; 
+          garitaTitle.textContent = textos[idioma].garita + " " + garita;
 
           garitaHeader.appendChild(garitaTitle);
           garitaContainer.appendChild(garitaHeader);
@@ -59,21 +100,19 @@ document.addEventListener('DOMContentLoaded', () => {
               </svg></div>`;
             }
 
-            // 🔹 Icono del cruce con color de fondo asignado
             const cruceIcon = document.createElement('div');
             cruceIcon.classList.add('cruce-icon');
             cruceIcon.style.backgroundColor = color;
             cruceIcon.innerHTML = iconoSvg;
             cruceContent.appendChild(cruceIcon);
 
-            // 🔹 Detalles del cruce
             const cruceDetails = document.createElement('div');
             cruceDetails.classList.add('cruce-details');
 
             cruceDetails.innerHTML = `
-              <div class="text-200">${cruce.tipo}</div>
-              <div class="text-300 medium">${cruce.tiempo}</div>
-              <div class="text-200">${cruce.líneas_abiertas}</div>
+              <div class="text-200">${traducirTextoDinamico(cruce.tipo)}</div>
+              <div class="text-300 medium">${traducirTextoDinamico(cruce.tiempo)}</div>
+              <div class="text-200">${traducirTextoDinamico(cruce.líneas_abiertas)}</div>
             `;
 
             cruceContent.appendChild(cruceDetails);
@@ -84,31 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
           wrapper.appendChild(garitaContainer);
         }
       });
-
-      // 🔹 Agregar última actualización centrada
-      if (data["Ultima_actualizacion"]) {
-        const ultimaActualizacion = document.createElement("div");
-        ultimaActualizacion.classList.add("ultima-actualizacion");
-
-        const fechaActualizacion = new Date(data["Ultima_actualizacion"]);
-        const ahora = new Date();
-        const diferenciaMinutos = Math.floor((ahora - fechaActualizacion) / (1000 * 60));
-
-        let mensajeTiempo = "hace unos segundos.";
-        if (diferenciaMinutos > 1) {
-          mensajeTiempo = `hace ${diferenciaMinutos} minutos.`;
-        }
-
-        ultimaActualizacion.textContent = `Actualizado ${mensajeTiempo}`;
-        ultimaActualizacion.style.textAlign = "center";
-        wrapper.appendChild(ultimaActualizacion);
-      }
-    })
-    .catch(error => {
-      wrapper.innerHTML += `<p>Error cargando información de ${ciudad}: ${error.message}</p>`;
     });
 });
-
 </script>
 
 <style> 
