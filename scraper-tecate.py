@@ -17,8 +17,8 @@ options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(service=service, options=options)
 
-# URL de Bordify (Página con todas las garitas de Tijuana)
-URL = "https://bordify.com/?city=tijuana"
+# URL de Bordify (Página con todas las garitas de tecate)
+URL = "https://bordify.com/?city=tecate"
 driver.get(URL)
 
 # Esperar explícitamente a que carguen las secciones principales
@@ -119,11 +119,11 @@ zona_horaria_tijuana = pytz.timezone("America/Tijuana")
 fecha_actualizacion = datetime.now(zona_horaria_tijuana).strftime("%Y-%m-%d %H:%M")
 
 datos_garitas["Ultima_actualizacion"] = fecha_actualizacion
-with open("wait-times-tijuana.json", "w", encoding="utf-8") as file:
+with open("wait-times-tecate.json", "w", encoding="utf-8") as file:
     json.dump(datos_garitas, file, indent=4, ensure_ascii=False)
 
 print("\n📊 Datos de tiempos de espera:")
 print(json.dumps(datos_garitas, indent=4, ensure_ascii=False))
-print(f"\n📂 Datos guardados en 'wait-times-tijuana.json'")
+print(f"\n📂 Datos guardados en 'wait-times-tecate.json'")
 print(f"🕒 Última actualización: {fecha_actualizacion}")
 print(f"✅ Script finalizado sin errores." if not errores else f"❌ Errores encontrados:\n" + "\n".join(errores))
