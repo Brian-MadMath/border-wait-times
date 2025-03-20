@@ -2,8 +2,8 @@ name: Ejecutar Scrapers
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch: {}  # ← Se agrega {} para corregir el error
+    - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
+  workflow_dispatch: {}  # Permite ejecución manual
 
 permissions:
   contents: write
@@ -21,29 +21,19 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 🛠 Instalar dependencias
+      - name: 🛠 Instalar dependencias de sistema
         run: |
           sudo apt update
           sudo apt install -y wget unzip google-chrome-stable
 
-      - name: 🔧 Instalar librerías de Python desde requirements.txt
+      - name: 🔧 Instalar librerías de Python
         run: |
+          pip install --upgrade pip
           pip install -r requirements.txt
-
-
-      - name: 🔧 Instalar ChromeDriver compatible
-        run: |
-          CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
-          CHROMEDRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE")
-          wget -q -O chromedriver.zip "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
-          unzip chromedriver.zip
-          sudo mv chromedriver /usr/local/bin/
-          chmod +x /usr/local/bin/chromedriver
-          chromedriver --version
-
-      - name: 🚀 Ejecutar scrapers  # ← Corregido el nivel de indentación
-        run: |
           pip install selenium webdriver-manager
+
+      - name: 🚀 Ejecutar scrapers
+        run: |
           python scraper-tijuana.py
           python scraper-tecate.py
           python scraper-mexicali.py
