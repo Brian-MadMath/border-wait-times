@@ -1,9 +1,5 @@
 <div id="wait-times-wrapper"></div>
 
-
-<div id="wait-times-wrapper"></div>
-<div id="wait-times-wrapper"></div>
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // 🔹 Detectar el idioma automáticamente
