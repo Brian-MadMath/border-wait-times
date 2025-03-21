@@ -2,6 +2,7 @@
 
 
 <div id="wait-times-wrapper"></div>
+<div id="wait-times-wrapper"></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -126,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+
 
 <style> 
 a {
