@@ -34,6 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+  // 🔹 Función para calcular tiempo transcurrido
+  function calcularTiempoTranscurrido(fechaString) {
+    const fechaActualizacion = new Date(fechaString);
+    const ahora = new Date();
+    const diferenciaMinutos = Math.floor((ahora - fechaActualizacion) / (1000 * 60));
+
+    if (diferenciaMinutos < 1) return textos[idioma].segundos;
+    return `${textos[idioma].actualizado} ${diferenciaMinutos} ${textos[idioma].minutos}`;
+  }
+
   // 🔹 Función para traducir textos dinámicos en strings
   function traducirTextoDinamico(texto) {
     return texto
@@ -56,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       Object.keys(data).forEach(garita => {
         if (garita !== "Ultima_actualizacion") {
-          const garitaContainer = document.createElement('a'); // Ahora es un <a>
+          const garitaContainer = document.createElement('a');
           garitaContainer.href = URL; 
           garitaContainer.classList.add('garita-container');
 
@@ -85,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (cruce.color === "yellow") color = "#FFC803";
             else if (cruce.color === "green") color = "#00DD85";
 
-            // 🔹 Asignar icono según tipo
+                       // 🔹 Asignar icono según tipo
             let iconoSvg = "";
             if (cruce.icono === "peatonal") {
               iconoSvg = `<div class="svg-icon-32"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#08161E" viewBox="0 0 256 256" style="opacity: 50%;">
@@ -120,15 +130,29 @@ document.addEventListener('DOMContentLoaded', () => {
           wrapper.appendChild(garitaContainer);
         }
       });
+
+      // 🔹 Agregar la última actualización
+      if (data["Ultima_actualizacion"]) {
+        const ultimaActualizacion = document.createElement("div");
+        ultimaActualizacion.classList.add("ultima-actualizacion");
+        ultimaActualizacion.textContent = calcularTiempoTranscurrido(data["Ultima_actualizacion"]);
+        ultimaActualizacion.style.textAlign = "center";
+        ultimaActualizacion.style.marginTop = "10px";
+        ultimaActualizacion.style.fontSize = "14px";
+        ultimaActualizacion.style.fontWeight = "bold";
+        wrapper.appendChild(ultimaActualizacion);
+      }
+    })
+    .catch(error => {
+      wrapper.innerHTML += `<p>Error cargando información de ${ciudad}: ${error.message}</p>`;
     });
 });
 </script>
 
-
 <style> 
 a {
-  text-decoration: none; /* Elimina el subrayado */
-  color: inherit; /* Hereda el color del texto del elemento padre */
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover, a:focus {
