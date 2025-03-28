@@ -10,14 +10,14 @@
         {
             "tipo": "Sentri",
             "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:28 horas",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -32,15 +32,15 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "Sin demora",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
             "tiempo": "Sin demora",
-            "líneas_abiertas": "2 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
@@ -48,15 +48,15 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "5 líneas abiertas",
+            "tiempo": "1:18 horas",
+            "líneas_abiertas": "7 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "30 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-03-27 20:51"
+    "Ultima_actualizacion": "2025-03-27 21:40"
 }
