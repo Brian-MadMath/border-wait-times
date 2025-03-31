@@ -121,7 +121,7 @@ Si encuentras errores, verifica lo siguiente:
 
 ## 📩 Contacto
 
-Si tienes preguntas o mejoras, contáctanos en [tu_email@example.com](mailto:brian@madandmath.com).
+Si tienes preguntas o mejoras, contáctanos en [brian@madandmath.com](mailto:brian@madandmath.com).
 
 📌 **Desarrollado por:** _[MadMath Creative Studio](https://www.madandmath.com/) 🚀_
 
