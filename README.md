@@ -1,55 +1,58 @@
+Claro, aquí tienes la versión en inglés de tu README traducida y adaptada correctamente:
+
+---
+
 # 🚦 Border Wait Times Scraper
 
-Este proyecto recopila y procesa los tiempos de espera en las principales garitas de Tijuana, Mexicali y Tecate, obteniendo información cada 10 minutos mediante **GitHub Actions** desde Bordify y mostrándolos en un sitio web con **JavaScript**.
+This project collects and processes wait times for the main ports of entry in **Tijuana, Mexicali, and Tecate**, fetching data every 10 minutes using **GitHub Actions** from Bordify and displaying them dynamically with **JavaScript**.
 
-## 📌 Descripción
+## 📌 Description
 
-Este sistema cuenta con scrapers en **Python** que extraen los tiempos de espera de cada garita, detectan el estado del tráfico mediante colores (rojo, amarillo, verde) y clasifican los cruces como **vehiculares o peatonales**. La información se almacena en archivos JSON y se actualiza cada 10 minutos automáticamente.
+The system uses **Python scrapers** to extract wait times from each crossing, detect traffic status by **color** (red, yellow, green), and classify lanes as **vehicular or pedestrian**. All data is saved in JSON format and updated automatically every 10 minutes.
 
-Un script en **JavaScript** consume estos datos para mostrarlos dinámicamente en un sitio web.
+A **JavaScript script** consumes this data to display it dynamically on a website.
 
-## 🚀 Funcionalidad
+## 🚀 Features
 
-- Extrae datos cada **10 minutos** desde Bordify.
-- Identifica **tiempos de espera** para diferentes tipos de carriles (**General, Sentri, ReadyLane**).
-- Detecta el estado del tráfico mediante **colores** (rojo, amarillo, verde).
-- Clasifica cada cruce como **vehicular o peatonal**.
-- Extrae el **icono** correspondiente (auto o peatón).
-- Guarda los datos en archivos **JSON**.
-- **Publica la información en un sitio web dinámico usando JavaScript.**
+- Fetches data every **10 minutes** from Bordify.
+- Detects **wait times** for different lane types (**General, Sentri, ReadyLane**).
+- Detects traffic status using **colors** (red, yellow, green).
+- Classifies each crossing as **vehicular or pedestrian**.
+- Extracts the appropriate **icon** (car or pedestrian).
+- Stores the information in **JSON** files.
+- **Displays the data dynamically using JavaScript.**
 
+## 🛠 Installation & Setup
 
-## 🛠 Instalación y Configuración
-
-1. **Clonar el repositorio:**
+1. **Clone the repository:**
    ```sh
-   git clone https://github.com/tu_usuario/border-wait-times.git
+   git clone https://github.com/your_username/border-wait-times.git
    cd border-wait-times
    ```
 
-2. **Instalar dependencias:**
+2. **Install dependencies:**
    ```sh
    pip install -r requirements.txt
    ```
 
-3. **Ejecutar los scrapers manualmente:**
+3. **Run the scrapers manually:**
    ```sh
    python3 scraper-tijuana.py
    python3 scraper-mexicali.py
    python3 scraper-tecate.py
    ```
 
-4. **Ejecutar el script en JavaScript localmente:**
+4. **Run the JavaScript script locally:**
    ```sh
    node scraper.js
    ```
 
-5. **Ver los datos generados en JSON:**
+5. **View the generated JSON output:**
    ```sh
    cat wait-times-tijuana.json
    ```
 
-## 🖮 Ejemplo de Salida JSON
+## 🖮 Example JSON Output
 
 ```json
 {
@@ -73,57 +76,58 @@ Un script en **JavaScript** consume estos datos para mostrarlos dinámicamente e
 }
 ```
 
-## 🌐 Funcionamiento del Script en JavaScript
+## 🌐 JavaScript Script Functionality
 
-El script `scraper.js` obtiene los datos desde los archivos JSON y los muestra en un sitio web. 
-Si se usa con **Webflow**, se puede incrustar el archivo `webflow script.js`.
+The `scraper.js` file reads the JSON data and renders it on a website.  
+If used with **Webflow**, you can embed the `webflow script.js` file.
 
-Ejemplo de ejecución manual:
+Manual execution:
 ```sh
 node scraper.js
 ```
 
-## 🔄 Automatización con GitHub Actions
+## 🔄 GitHub Actions Automation
 
-El script `scraper.yml` ejecuta los scrapers **cada 10 minutos** de forma automática y actualiza los archivos JSON en el repositorio.
+The `scraper.yml` workflow runs every **10 minutes** and updates the JSON files automatically.
 
 ```yaml
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Ejecuta cada 10 minutos
-  workflow_dispatch: {}  # Permite ejecución manual
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
+  workflow_dispatch: {}     # Allows manual execution
 ```
 
-## 🔍 Tecnologías Utilizadas
+## 🔍 Tech Stack
 
-- **Python** 🐍
-- **JavaScript (Node.js)** 📝
-- **Selenium** 🌐
-- **Puppeteer** 🤖
-- **WebDriver Manager** 🚗
-- **YAML** 📝
-- **JSON** 📊
-- **GitHub Actions** 🔄
+- **Python** 🐍  
+- **JavaScript (Node.js)** 📝  
+- **Selenium** 🌐  
+- **Puppeteer** 🤖  
+- **WebDriver Manager** 🚗  
+- **YAML** 📝  
+- **JSON** 📊  
+- **GitHub Actions** 🔄  
 
-## 🛠 Mantenimiento y Errores
+## 🛠 Troubleshooting
 
-Si encuentras errores, verifica lo siguiente:
-- **El sitio Bordify está activo** y su estructura HTML no ha cambiado.
-- **El WebDriver está actualizado:**
+If you run into errors, check the following:
+- **Bordify is online** and its HTML structure hasn't changed.
+- **WebDriver is up to date:**
   ```sh
   pip install -U webdriver-manager
   ```
-- **Las dependencias están instaladas correctamente.**
-- **Para el script en JavaScript, asegúrate de tener Node.js instalado:**
+- **All dependencies are properly installed.**
+- **Node.js is installed for the JavaScript script:**
   ```sh
   node -v
   ```
 
-## 📩 Contacto
+## 📩 Contact
 
-Si tienes preguntas o mejoras, contáctanos en [brian@madandmath.com](mailto:brian@madandmath.com).
+For questions or suggestions, contact us at [brian@madandmath.com](mailto:brian@madandmath.com).
 
-📌 **Desarrollado por:** _[MadMath Creative Studio](https://www.madandmath.com/) 🚀_
+📌 **Developed by:** _[MadMath Creative Studio](https://www.madandmath.com/) 🚀_
 
+---
 
-
+¿Quieres que lo suba directo al `README.md` del repo?
