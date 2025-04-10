@@ -49,7 +49,7 @@
         {
             "tipo": "General",
             "tiempo": "1:22 horas",
-            "líneas_abiertas": "6 líneas abiertas",
+            "líneas_abiertas": "8 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-04-10 03:12"
+    "Ultima_actualizacion": "2025-04-10 03:36"
 }
