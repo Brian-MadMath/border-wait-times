@@ -2,21 +2,21 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "4:00 horas",
+            "tiempo": "4:48 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:57 horas",
+            "tiempo": "3:03 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-04-13 21:13"
+    "Ultima_actualizacion": "2025-04-13 21:36"
 }
