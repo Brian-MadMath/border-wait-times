@@ -16,7 +16,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "15 minutos",
+            "tiempo": "29 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -46,16 +46,16 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "38 minutos",
+            "tiempo": "20 minutos",
             "líneas_abiertas": "11 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "46 minutos",
+            "tiempo": "25 minutos",
             "líneas_abiertas": "16 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-04-17 20:55"
+    "Ultima_actualizacion": "2025-04-17 21:13"
 }
