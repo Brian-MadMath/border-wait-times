@@ -9,7 +9,7 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "2 minutos",
+            "tiempo": "21 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
@@ -32,9 +32,9 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-04-24 10:13"
+    "Ultima_actualizacion": "2025-04-24 10:30"
 }
