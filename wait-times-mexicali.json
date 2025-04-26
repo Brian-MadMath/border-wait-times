@@ -39,7 +39,7 @@
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-04-26 15:41"
+    "Ultima_actualizacion": "2025-04-26 15:52"
 }
