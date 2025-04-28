@@ -32,7 +32,7 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:28 horas",
+            "tiempo": "1:18 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -46,15 +46,15 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:42 horas",
-            "líneas_abiertas": "12 líneas abiertas",
+            "tiempo": "1:32 horas",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "17 líneas abiertas",
+            "tiempo": "1:20 horas",
+            "líneas_abiertas": "16 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-04-28 11:16"
+    "Ultima_actualizacion": "2025-04-28 11:42"
 }
