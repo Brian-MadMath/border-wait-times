@@ -2,30 +2,30 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-02 00:29"
+    "Ultima_actualizacion": "2025-05-02 00:39"
 }
