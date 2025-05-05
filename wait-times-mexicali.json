@@ -2,7 +2,7 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "1:16 horas",
+            "tiempo": "1:28 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
@@ -16,7 +16,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:00 hora",
+            "tiempo": "44 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -32,7 +32,7 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "56 minutos",
+            "tiempo": "34 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -48,32 +48,32 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "2:12 horas",
-            "líneas_abiertas": "8 líneas abiertas",
+            "tiempo": "2:23 horas",
+            "líneas_abiertas": "7 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "21 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "29 minutos",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:20 horas",
+            "tiempo": "1:12 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:20 horas",
+            "tiempo": "1:12 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-04 17:58"
+    "Ultima_actualizacion": "2025-05-04 19:42"
 }
