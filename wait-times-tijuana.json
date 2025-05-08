@@ -2,30 +2,30 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "3:28 horas",
+            "tiempo": "3:12 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "1:20 horas",
+            "tiempo": "1:04 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "3:28 horas",
+            "tiempo": "3:12 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
@@ -39,7 +39,7 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "49 minutos",
+            "tiempo": "42 minutos",
             "líneas_abiertas": "12 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -54,7 +54,7 @@
         {
             "tipo": "General",
             "tiempo": "2:24 horas",
-            "líneas_abiertas": "21 líneas abiertas",
+            "líneas_abiertas": "17 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -69,8 +69,8 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "4 líneas abiertas",
+            "tiempo": "1:12 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-08 08:12"
+    "Ultima_actualizacion": "2025-05-08 08:34"
 }
