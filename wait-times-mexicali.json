@@ -32,15 +32,15 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "red",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "Sin demora",
-            "líneas_abiertas": "1 línea abierta",
+            "tiempo": "16 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-09 10:43"
+    "Ultima_actualizacion": "2025-05-09 10:52"
 }
