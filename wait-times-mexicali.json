@@ -2,7 +2,7 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "1:11 horas",
+            "tiempo": "1:33 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
@@ -39,7 +39,7 @@
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "Sin demora",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -48,7 +48,7 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "2:53 horas",
+            "tiempo": "2:44 horas",
             "líneas_abiertas": "7 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-11 13:52"
+    "Ultima_actualizacion": "2025-05-11 14:10"
 }
