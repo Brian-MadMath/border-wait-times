@@ -16,9 +16,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "34 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "4 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -32,15 +32,15 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "Sin demora",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "peatonal"
         }
@@ -48,7 +48,7 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "2:26 horas",
+            "tiempo": "1:57 horas",
             "líneas_abiertas": "8 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-12 12:10"
+    "Ultima_actualizacion": "2025-05-12 12:27"
 }
