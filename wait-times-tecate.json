@@ -9,11 +9,11 @@
         },
         {
             "tipo": "General",
-            "tiempo": "1:13 horas",
+            "tiempo": "3 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-11 19:43"
+    "Ultima_actualizacion": "2025-05-11 20:35"
 }
