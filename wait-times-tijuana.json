@@ -2,9 +2,9 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
@@ -16,16 +16,16 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "24 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
@@ -69,18 +69,18 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-23 00:13"
+    "Ultima_actualizacion": "2025-05-23 00:30"
 }
