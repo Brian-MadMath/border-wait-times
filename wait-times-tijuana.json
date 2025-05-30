@@ -46,9 +46,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "39 minutos",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "yellow",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-05-30 01:56"
+    "Ultima_actualizacion": "2025-05-30 02:14"
 }
