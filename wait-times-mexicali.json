@@ -9,7 +9,7 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "12 minutos",
+            "tiempo": "18 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -48,16 +48,16 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "49 minutos",
+            "tiempo": "56 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "39 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -69,11 +69,11 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "15 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-06-04 15:52"
+    "Ultima_actualizacion": "2025-06-04 16:11"
 }
