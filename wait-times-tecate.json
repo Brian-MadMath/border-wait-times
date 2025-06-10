@@ -3,17 +3,17 @@
         {
             "tipo": "General",
             "tiempo": "",
-            "líneas_abiertas": "2 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
             "tiempo": "",
-            "líneas_abiertas": "2 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-06-10 01:16"
+    "Ultima_actualizacion": "2025-06-10 01:43"
 }
