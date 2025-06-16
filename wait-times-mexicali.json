@@ -2,7 +2,7 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "31 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "yellow",
             "icono": "vehicular"
@@ -16,9 +16,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "18 minutos",
+            "tiempo": "1:28 horas",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "color": "red",
             "icono": "vehicular"
         },
         {
@@ -32,7 +32,7 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "21 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -48,21 +48,21 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:38 horas",
+            "tiempo": "1:25 horas",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "27 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "tiempo": "33 minutos",
+            "líneas_abiertas": "4 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "37 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
@@ -75,5 +75,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-06-16 12:52"
+    "Ultima_actualizacion": "2025-06-16 13:13"
 }
