@@ -16,9 +16,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:08 horas",
+            "tiempo": "55 minutos",
             "líneas_abiertas": "5 líneas abiertas",
-            "color": "red",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -32,7 +32,7 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:13 horas",
+            "tiempo": "1:22 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -40,21 +40,21 @@
         {
             "tipo": "Sentri",
             "tiempo": "18 minutos",
-            "líneas_abiertas": "9 líneas abiertas",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "48 minutos",
-            "líneas_abiertas": "13 líneas abiertas",
+            "tiempo": "55 minutos",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "12 minutos",
-            "líneas_abiertas": "12 líneas abiertas",
+            "tiempo": "9 minutos",
+            "líneas_abiertas": "14 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
@@ -70,7 +70,7 @@
         {
             "tipo": "General",
             "tiempo": "9 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-06-19 10:35"
+    "Ultima_actualizacion": "2025-06-19 10:48"
 }
