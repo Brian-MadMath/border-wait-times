@@ -11,9 +11,10 @@ import pytz
 # Configurar Selenium con WebDriver Manager
 service = Service(ChromeDriverManager().install())
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+options.add_argument("--headless=new")  # más compatible en Chrome reciente
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
+options.binary_location = "/usr/bin/google-chrome"  # 👈 ESTA ES LA LÍNEA NUEVA
 
 driver = webdriver.Chrome(service=service, options=options)
 
@@ -21,10 +22,17 @@ driver = webdriver.Chrome(service=service, options=options)
 URL = "https://bordify.com/?city=tecate"
 driver.get(URL)
 
-# Esperar explícitamente a que carguen las secciones principales
-WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.CLASS_NAME, "bg-white.shadow.rounded"))
-)
+try:
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "bg-white.shadow.rounded"))
+    )
+except Exception as e:
+    print("⚠️ ERROR: No se encontró el elemento esperado.")
+    driver.save_screenshot("screenshot.png")
+    print("📸 Screenshot guardado como screenshot.png")
+    driver.quit()
+    raise e  # relanza el error para que el workflow falle
+
 
 # Diccionario para guardar los tiempos de espera organizados por garita
 datos_garitas = {}

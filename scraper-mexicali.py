@@ -11,9 +11,10 @@ import pytz
 # Configurar Selenium con WebDriver Manager
 service = Service(ChromeDriverManager().install())
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+options.add_argument("--headless=new")  # más compatible en Chrome reciente¿
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
+options.binary_location = "/usr/bin/google-chrome"  # 👈 ESTA ES LA LÍNEA NUEVA
 
 driver = webdriver.Chrome(service=service, options=options)
 
