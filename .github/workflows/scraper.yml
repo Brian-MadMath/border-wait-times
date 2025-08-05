@@ -50,8 +50,7 @@ jobs:
 
       - name: 📤 Subir screenshot si existe
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: captura-error
           path: screenshot.png
-  
