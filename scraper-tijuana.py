@@ -29,12 +29,14 @@ try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CLASS_NAME, "bg-white.shadow.rounded"))
     )
+    secciones_garitas = driver.find_elements(By.CLASS_NAME, "bg-white.shadow.rounded")
+
 except Exception as e:
-    print("⚠️ ERROR: No se encontró el elemento esperado.")
+    print("❌ No se pudo cargar el contenido esperado.")
     driver.save_screenshot("screenshot.png")
-    print("📸 Screenshot guardado como screenshot.png")
     driver.quit()
-    raise e  # relanza el error para que el workflow falle
+    raise e
+
 
 
 # Diccionario para guardar los tiempos de espera organizados por garita

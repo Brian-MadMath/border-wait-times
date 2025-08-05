@@ -25,10 +25,18 @@ driver = webdriver.Chrome(service=service, options=options)
 URL = "https://bordify.com/?city=mexicali"
 driver.get(URL)
 
-# Esperar explícitamente a que carguen las secciones principales
-WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.CLASS_NAME, "bg-white.shadow.rounded"))
-)
+try:
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "bg-white.shadow.rounded"))
+    )
+    secciones_garitas = driver.find_elements(By.CLASS_NAME, "bg-white.shadow.rounded")
+
+except Exception as e:
+    print("❌ No se pudo cargar el contenido esperado.")
+    driver.save_screenshot("screenshot.png")
+    driver.quit()
+    raise e
+
 
 # Diccionario para guardar los tiempos de espera organizados por garita
 datos_garitas = {}
