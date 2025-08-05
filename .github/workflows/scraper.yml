@@ -40,7 +40,7 @@ jobs:
           python scraper-tecate.py
           python scraper-mexicali.py
 
-     - name: 💾 Commit y push
+      - name: 💾 Commit y push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
@@ -48,7 +48,6 @@ jobs:
           git add wait-times-*.json
           git commit --allow-empty -m "🔄 Actualización automática: $(date +'%Y-%m-%d %H:%M')" || echo "Sin cambios"
           git push
-
 
       - name: 📤 Subir screenshot si existe
         if: always()
