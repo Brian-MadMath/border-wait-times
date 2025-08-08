@@ -3,35 +3,35 @@
         {
             "tipo": "General",
             "tiempo": "1:44 horas",
-            "líneas_abiertas": "1 línea abierta",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
             "tiempo": "43 minutos",
-            "líneas_abiertas": "5 líneas abiertas",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "2:24 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "30 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "27 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "48 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "45 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
         }
@@ -46,15 +46,15 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "32 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "48 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:24 horas",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "2:40 horas",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-08 13:48"
+    "Ultima_actualizacion": "2025-08-08 13:56"
 }
