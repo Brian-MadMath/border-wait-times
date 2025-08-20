@@ -39,7 +39,7 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "59 minutos",
+            "tiempo": "41 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "yellow",
             "icono": "vehicular"
@@ -69,7 +69,7 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "1:12 horas",
+            "tiempo": "1:36 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-20 10:46"
+    "Ultima_actualizacion": "2025-08-20 10:53"
 }
