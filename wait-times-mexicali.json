@@ -2,35 +2,35 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "54 minutos",
+            "tiempo": "1:25 horas",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:12 horas",
-            "líneas_abiertas": "4 líneas abiertas",
-            "color": "red",
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "15 minutos",
+            "tiempo": "21 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "15 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "peatonal"
@@ -39,21 +39,21 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "26 minutos",
+            "tiempo": "43 minutos",
             "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "15 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "50 minutos",
+            "tiempo": "44 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -69,9 +69,9 @@
     "Garita Los Algodones": [
         {
             "tipo": "General",
-            "tiempo": "1:12 horas",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-20 16:51"
+    "Ultima_actualizacion": "2025-08-20 17:43"
 }
