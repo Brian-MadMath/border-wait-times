@@ -23,14 +23,14 @@
         },
         {
             "tipo": "General",
-            "tiempo": "1:26 horas",
-            "líneas_abiertas": "15 líneas abiertas",
-            "color": "red",
+            "tiempo": "54 minutos",
+            "líneas_abiertas": "14 líneas abiertas",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "Sin demora",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "peatonal"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-23 08:33"
+    "Ultima_actualizacion": "2025-08-23 08:42"
 }
