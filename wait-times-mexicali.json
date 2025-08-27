@@ -3,7 +3,7 @@
         {
             "tipo": "General",
             "tiempo": "59 minutos",
-            "líneas_abiertas": "1 línea abierta",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-27 02:11"
+    "Ultima_actualizacion": "2025-08-27 02:30"
 }
