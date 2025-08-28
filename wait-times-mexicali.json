@@ -76,11 +76,11 @@
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "Sin demora",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-28 14:10"
+    "Ultima_actualizacion": "2025-08-28 14:25"
 }
