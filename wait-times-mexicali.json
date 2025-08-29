@@ -3,7 +3,7 @@
         {
             "tipo": "General",
             "tiempo": "30 minutos",
-            "líneas_abiertas": "1 línea abierta",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
@@ -17,7 +17,7 @@
         {
             "tipo": "ReadyLane",
             "tiempo": "19 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-08-29 02:14"
+    "Ultima_actualizacion": "2025-08-29 02:32"
 }
