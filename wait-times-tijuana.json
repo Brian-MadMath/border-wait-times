@@ -23,9 +23,9 @@
         },
         {
             "tipo": "General",
-            "tiempo": "30 minutos",
-            "líneas_abiertas": "20 líneas abiertas",
-            "color": "green",
+            "tiempo": "33 minutos",
+            "líneas_abiertas": "19 líneas abiertas",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-09-08 07:47"
+    "Ultima_actualizacion": "2025-09-08 07:54"
 }
