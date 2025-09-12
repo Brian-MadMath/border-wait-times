@@ -46,9 +46,9 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "44 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-09-12 12:31"
+    "Ultima_actualizacion": "2025-09-12 12:42"
 }
