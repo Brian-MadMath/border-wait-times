@@ -2,7 +2,7 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "2:13 horas",
+            "tiempo": "1:54 horas",
             "líneas_abiertas": "7 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -16,16 +16,16 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:30 horas",
+            "tiempo": "2:36 horas",
             "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
-            "líneas_abiertas": "13 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "1:04 horas",
+            "líneas_abiertas": "18 líneas abiertas",
+            "color": "red",
             "icono": "peatonal"
         },
         {
@@ -69,7 +69,7 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-09-16 12:32"
+    "Ultima_actualizacion": "2025-09-16 12:41"
 }
