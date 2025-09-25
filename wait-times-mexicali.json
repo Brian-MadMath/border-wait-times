@@ -2,8 +2,8 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:12 horas",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "1:22 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -16,8 +16,8 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "31 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "44 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-09-25 03:11"
+    "Ultima_actualizacion": "2025-09-25 03:34"
 }
