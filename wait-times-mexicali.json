@@ -39,9 +39,9 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "3:40 horas",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "gray",
+            "color": "red",
             "icono": "vehicular"
         },
         {
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-09-29 11:42"
+    "Ultima_actualizacion": "2025-09-29 11:56"
 }
