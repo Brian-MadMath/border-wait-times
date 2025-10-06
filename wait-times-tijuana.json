@@ -2,7 +2,7 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "3:43 horas",
+            "tiempo": "2:13 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -16,14 +16,14 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "3:01 horas",
+            "tiempo": "2:17 horas",
             "líneas_abiertas": "12 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "2:31 horas",
+            "tiempo": "1:04 horas",
             "líneas_abiertas": "17 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
@@ -39,30 +39,30 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "4:48 horas",
-            "líneas_abiertas": "1 línea abierta",
+            "tiempo": "2:53 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
             "tiempo": "40 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "líneas_abiertas": "1 línea abierta",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "3:35 horas",
-            "líneas_abiertas": "4 líneas abiertas",
+            "tiempo": "2:38 horas",
+            "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "2:24 horas",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "red",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-05 21:53"
+    "Ultima_actualizacion": "2025-10-05 22:11"
 }
