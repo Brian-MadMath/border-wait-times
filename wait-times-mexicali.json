@@ -2,35 +2,35 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "26 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "tiempo": "1:00 hora",
+            "líneas_abiertas": "1 línea abierta",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
+            "tiempo": "30 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:05 horas",
-            "líneas_abiertas": "3 líneas abiertas",
-            "color": "red",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "4 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "9 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -39,7 +39,7 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "1 minuto",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
@@ -53,9 +53,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
-            "color": "green",
+            "tiempo": "33 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-07 19:12"
+    "Ultima_actualizacion": "2025-10-07 20:07"
 }
