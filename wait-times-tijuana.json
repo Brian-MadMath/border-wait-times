@@ -9,14 +9,14 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "17 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "8 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "52 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "13 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -53,7 +53,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "56 minutos",
+            "tiempo": "51 minutos",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -69,7 +69,7 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "31 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-10 20:01"
+    "Ultima_actualizacion": "2025-10-10 20:27"
 }
