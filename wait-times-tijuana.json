@@ -2,21 +2,21 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
+            "tiempo": "1:30 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
+            "tiempo": "22 minutos",
             "líneas_abiertas": "8 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:55 horas",
+            "tiempo": "1:52 horas",
             "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -30,37 +30,37 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "39 minutos",
             "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "2:24 horas",
+            "tiempo": "1:29 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "40 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:12 horas",
+            "tiempo": "2:24 horas",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "44 minutos",
+            "tiempo": "43 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-17 08:53"
+    "Ultima_actualizacion": "2025-10-17 09:11"
 }
