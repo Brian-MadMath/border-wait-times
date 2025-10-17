@@ -2,21 +2,21 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:34 horas",
+            "tiempo": "1:43 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "29 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "9 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:00 horas",
+            "tiempo": "2:06 horas",
             "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -39,28 +39,28 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "2:02 horas",
+            "tiempo": "1:38 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "43 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:55 horas",
+            "tiempo": "1:47 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "48 minutos",
+            "tiempo": "39 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-17 11:55"
+    "Ultima_actualizacion": "2025-10-17 12:07"
 }
