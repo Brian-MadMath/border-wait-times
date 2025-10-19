@@ -9,23 +9,23 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "15 minutos",
-            "líneas_abiertas": "9 líneas abiertas",
+            "tiempo": "18 minutos",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "2:14 horas",
-            "líneas_abiertas": "13 líneas abiertas",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "11 líneas abiertas",
-            "color": "green",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "12 líneas abiertas",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-18 23:13"
+    "Ultima_actualizacion": "2025-10-18 23:41"
 }
