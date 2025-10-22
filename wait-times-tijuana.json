@@ -2,29 +2,29 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
+            "tiempo": "25 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "green",
+            "icono": "vehicular"
+        },
+        {
+            "tipo": "Sentri",
             "tiempo": "24 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
-            "tipo": "Sentri",
-            "tiempo": "15 minutos",
-            "líneas_abiertas": "9 líneas abiertas",
-            "color": "green",
-            "icono": "vehicular"
-        },
-        {
             "tipo": "ReadyLane",
-            "tiempo": "1:05 horas",
-            "líneas_abiertas": "13 líneas abiertas",
-            "color": "red",
+            "tiempo": "42 minutos",
+            "líneas_abiertas": "15 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "46 minutos",
-            "líneas_abiertas": "13 líneas abiertas",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "14 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
         },
@@ -39,9 +39,9 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "47 minutos",
+            "tiempo": "1:30 horas",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "56 minutos",
+            "tiempo": "53 minutos",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-21 19:22"
+    "Ultima_actualizacion": "2025-10-21 20:31"
 }
