@@ -2,23 +2,23 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:19 horas",
+            "tiempo": "1:00 hora",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "37 minutos",
+            "tiempo": "31 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:12 horas",
-            "líneas_abiertas": "5 líneas abiertas",
-            "color": "red",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "4 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -39,9 +39,9 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "1:33 horas",
+            "tiempo": "55 minutos",
             "líneas_abiertas": "1 línea abierta",
-            "color": "red",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "25 minutos",
+            "tiempo": "18 minutos",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-10-25 20:29"
+    "Ultima_actualizacion": "2025-10-25 20:51"
 }
