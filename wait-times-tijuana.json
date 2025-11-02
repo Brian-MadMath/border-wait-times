@@ -2,29 +2,29 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:58 horas",
+            "tiempo": "1:59 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "1:31 horas",
+            "tiempo": "27 minutos",
             "líneas_abiertas": "12 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:05 horas",
+            "tiempo": "1:48 horas",
             "líneas_abiertas": "11 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:23 horas",
-            "líneas_abiertas": "20 líneas abiertas",
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "17 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -39,7 +39,7 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
+            "tiempo": "1:29 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -53,16 +53,16 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:24 horas",
+            "tiempo": "1:40 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "27 minutos",
+            "tiempo": "42 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-01 16:51"
+    "Ultima_actualizacion": "2025-11-01 17:48"
 }
