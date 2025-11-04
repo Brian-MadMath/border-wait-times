@@ -2,7 +2,7 @@
     "Garita Tecate": [
         {
             "tipo": "General",
-            "tiempo": "1:45 horas",
+            "tiempo": "3:12 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -15,5 +15,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-03 15:51"
+    "Ultima_actualizacion": "2025-11-03 16:44"
 }
