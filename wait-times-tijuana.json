@@ -2,7 +2,7 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:38 horas",
+            "tiempo": "1:27 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -16,7 +16,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "53 minutos",
+            "tiempo": "1:00 hora",
             "líneas_abiertas": "13 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -39,28 +39,28 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "1:12 horas",
+            "tiempo": "1:20 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "30 minutos",
+            "tiempo": "37 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:40 horas",
+            "tiempo": "1:59 horas",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "19 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -69,9 +69,9 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "53 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-04 09:51"
+    "Ultima_actualizacion": "2025-11-04 10:14"
 }
