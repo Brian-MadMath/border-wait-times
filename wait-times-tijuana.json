@@ -60,9 +60,9 @@
         },
         {
             "tipo": "General",
-            "tiempo": "31 minutos",
+            "tiempo": "12 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-14 09:11"
+    "Ultima_actualizacion": "2025-11-14 09:31"
 }
