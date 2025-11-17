@@ -2,30 +2,30 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "1:55 horas",
+            "tiempo": "2:07 horas",
             "líneas_abiertas": "8 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
+            "tiempo": "12 minutos",
             "líneas_abiertas": "10 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:29 horas",
+            "tiempo": "2:06 horas",
             "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "2:09 horas",
             "líneas_abiertas": "18 líneas abiertas",
-            "color": "green",
+            "color": "red",
             "icono": "peatonal"
         },
         {
@@ -39,21 +39,21 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "1:56 horas",
+            "tiempo": "1:36 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "1:12 horas",
+            "tiempo": "56 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "red",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:32 horas",
+            "tiempo": "2:18 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-16 20:01"
+    "Ultima_actualizacion": "2025-11-16 20:35"
 }
