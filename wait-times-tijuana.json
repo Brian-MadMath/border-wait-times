@@ -2,9 +2,9 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "12 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -16,9 +16,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:06 horas",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "12 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -39,29 +39,29 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "58 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "1:01 horas",
+            "líneas_abiertas": "1 línea abierta",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "35 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "34 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
             "tiempo": "Sin demora",
-            "líneas_abiertas": "5 líneas abiertas",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-19 21:51"
+    "Ultima_actualizacion": "2025-11-19 22:14"
 }
