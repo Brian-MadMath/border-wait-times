@@ -2,58 +2,58 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:35 horas",
-            "líneas_abiertas": "1 línea abierta",
+            "tiempo": "1:10 horas",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "40 minutos",
-            "líneas_abiertas": "5 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:52 horas",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "31 minutos",
+            "tiempo": "34 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "3 líneas abiertas",
-            "color": "red",
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "1 línea abierta",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "36 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "yellow",
+            "tiempo": "2:17 horas",
+            "líneas_abiertas": "2 líneas abiertas",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "31 minutos",
+            "tiempo": "1:00 hora",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-20 15:51"
+    "Ultima_actualizacion": "2025-11-20 16:45"
 }
