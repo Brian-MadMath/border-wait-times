@@ -2,29 +2,29 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "2:07 horas",
-            "líneas_abiertas": "5 líneas abiertas",
+            "tiempo": "2:10 horas",
+            "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
             "tiempo": "27 minutos",
-            "líneas_abiertas": "13 líneas abiertas",
+            "líneas_abiertas": "14 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "1:53 horas",
-            "líneas_abiertas": "11 líneas abiertas",
+            "líneas_abiertas": "10 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
             "tiempo": "1:12 horas",
-            "líneas_abiertas": "18 líneas abiertas",
+            "líneas_abiertas": "20 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -46,7 +46,7 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -69,8 +69,8 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "5 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-11-22 13:42"
+    "Ultima_actualizacion": "2025-11-22 13:51"
 }
