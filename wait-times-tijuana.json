@@ -39,22 +39,22 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "yellow",
-            "icono": "vehicular"
-        },
-        {
-            "tipo": "Sentri",
-            "tiempo": "Sin demora",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
         },
         {
+            "tipo": "Sentri",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
+            "icono": "vehicular"
+        },
+        {
             "tipo": "ReadyLane",
-            "tiempo": "30 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "21 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
@@ -69,18 +69,18 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "48 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-12-06 00:12"
+    "Ultima_actualizacion": "2025-12-06 00:38"
 }
