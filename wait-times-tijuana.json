@@ -16,16 +16,16 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "4:32 horas",
+            "tiempo": "4:48 horas",
             "líneas_abiertas": "7 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "2:08 horas",
-            "líneas_abiertas": "14 líneas abiertas",
-            "color": "red",
+            "tiempo": "40 minutos",
+            "líneas_abiertas": "16 líneas abiertas",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
@@ -39,16 +39,16 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "6:40 horas",
+            "tiempo": "6:24 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "56 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "24 minutos",
+            "líneas_abiertas": "1 línea abierta",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -60,9 +60,9 @@
         },
         {
             "tipo": "General",
-            "tiempo": "40 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-12-06 21:12"
+    "Ultima_actualizacion": "2025-12-06 21:32"
 }
