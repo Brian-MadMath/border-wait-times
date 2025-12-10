@@ -2,29 +2,29 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "4:08 horas",
-            "líneas_abiertas": "5 líneas abiertas",
+            "tiempo": "4:32 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
             "tiempo": "32 minutos",
-            "líneas_abiertas": "13 líneas abiertas",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "3:12 horas",
-            "líneas_abiertas": "10 líneas abiertas",
+            "tiempo": "3:44 horas",
+            "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "11 líneas abiertas",
+            "tiempo": "1:12 horas",
+            "líneas_abiertas": "8 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -46,7 +46,7 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "32 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -69,18 +69,18 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
-            "líneas_abiertas": "4 líneas abiertas",
+            "tiempo": "1:20 horas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "Sin demora",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-12-10 09:00"
+    "Ultima_actualizacion": "2025-12-10 09:22"
 }
