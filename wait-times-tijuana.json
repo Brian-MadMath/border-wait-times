@@ -2,9 +2,9 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "38 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -16,9 +16,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "",
+            "tiempo": "53 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -39,9 +39,9 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "3:00 horas",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "red",
             "icono": "vehicular"
         },
         {
@@ -53,9 +53,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "",
+            "tiempo": "50 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-12-10 00:15"
+    "Ultima_actualizacion": "2025-12-10 00:45"
 }
