@@ -69,9 +69,9 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
+            "tiempo": "1:12 horas",
             "líneas_abiertas": "4 líneas abiertas",
-            "color": "yellow",
+            "color": "red",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2025-12-13 08:50"
+    "Ultima_actualizacion": "2025-12-13 09:08"
 }
