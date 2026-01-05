@@ -60,7 +60,7 @@
         },
         {
             "tipo": "General",
-            "tiempo": "1:00 hora",
+            "tiempo": "52 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "yellow",
             "icono": "peatonal"
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-05 13:10"
+    "Ultima_actualizacion": "2026-01-05 13:32"
 }
