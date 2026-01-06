@@ -2,35 +2,35 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "32 minutos",
-            "líneas_abiertas": "7 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "2:17 horas",
+            "líneas_abiertas": "6 líneas abiertas",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "44 minutos",
-            "líneas_abiertas": "12 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "17 minutos",
+            "líneas_abiertas": "9 líneas abiertas",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:04 horas",
-            "líneas_abiertas": "12 líneas abiertas",
+            "tiempo": "1:03 horas",
+            "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "8 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "16 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "9 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -39,30 +39,30 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "20 minutos",
+            "tiempo": "1:16 horas",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "32 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "44 minutos",
+            "tiempo": "11 minutos",
             "líneas_abiertas": "4 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "44 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-05 18:51"
+    "Ultima_actualizacion": "2026-01-05 19:57"
 }
