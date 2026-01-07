@@ -2,30 +2,30 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "59 minutos",
+            "tiempo": "1:32 horas",
             "líneas_abiertas": "5 líneas abiertas",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "12 minutos",
-            "líneas_abiertas": "8 líneas abiertas",
+            "tiempo": "22 minutos",
+            "líneas_abiertas": "11 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:00 hora",
-            "líneas_abiertas": "16 líneas abiertas",
+            "tiempo": "59 minutos",
+            "líneas_abiertas": "13 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "44 minutos",
-            "líneas_abiertas": "17 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "1:04 horas",
+            "líneas_abiertas": "14 líneas abiertas",
+            "color": "red",
             "icono": "peatonal"
         },
         {
@@ -39,9 +39,9 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "1:55 horas",
+            "tiempo": "26 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -53,9 +53,9 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "47 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "5 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-06 15:51"
+    "Ultima_actualizacion": "2026-01-06 16:51"
 }
