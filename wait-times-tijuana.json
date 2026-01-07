@@ -23,9 +23,9 @@
         },
         {
             "tipo": "General",
-            "tiempo": "Sin demora",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-07 01:37"
+    "Ultima_actualizacion": "2026-01-07 01:53"
 }
