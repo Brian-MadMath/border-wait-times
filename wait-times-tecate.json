@@ -3,7 +3,7 @@
         {
             "tipo": "General",
             "tiempo": "1:40 horas",
-            "líneas_abiertas": "3 líneas abiertas",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -15,5 +15,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-12 12:12"
+    "Ultima_actualizacion": "2026-01-12 12:39"
 }
