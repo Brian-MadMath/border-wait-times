@@ -3,7 +3,7 @@
         {
             "tipo": "General",
             "tiempo": "1:31 horas",
-            "líneas_abiertas": "6 líneas abiertas",
+            "líneas_abiertas": "12 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -16,22 +16,22 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:44 horas",
-            "líneas_abiertas": "12 líneas abiertas",
+            "tiempo": "1:49 horas",
+            "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
             "tiempo": "1:28 horas",
-            "líneas_abiertas": "19 líneas abiertas",
+            "líneas_abiertas": "17 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-17 15:09"
+    "Ultima_actualizacion": "2026-01-17 15:29"
 }
