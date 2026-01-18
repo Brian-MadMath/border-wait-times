@@ -3,29 +3,29 @@
         {
             "tipo": "General",
             "tiempo": "46 minutos",
-            "líneas_abiertas": "5 líneas abiertas",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "13 minutos",
+            "tiempo": "11 minutos",
             "líneas_abiertas": "10 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:33 horas",
-            "líneas_abiertas": "11 líneas abiertas",
+            "tiempo": "1:19 horas",
+            "líneas_abiertas": "12 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "16 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
@@ -46,32 +46,32 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "",
+            "tiempo": "33 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "gray",
-            "icono": "vehicular"
-        },
-        {
-            "tipo": "ReadyLane",
-            "tiempo": "58 minutos",
-            "líneas_abiertas": "5 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
+            "tipo": "ReadyLane",
+            "tiempo": "1:12 horas",
+            "líneas_abiertas": "5 líneas abiertas",
+            "color": "red",
+            "icono": "vehicular"
+        },
+        {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "10 minutos",
             "líneas_abiertas": "6 líneas abiertas",
-            "color": "gray",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "1:04 horas",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "4 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-18 08:52"
+    "Ultima_actualizacion": "2026-01-18 09:09"
 }
