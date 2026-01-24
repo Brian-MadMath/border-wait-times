@@ -10,21 +10,21 @@
         {
             "tipo": "Sentri",
             "tiempo": "30 minutos",
-            "líneas_abiertas": "8 líneas abiertas",
+            "líneas_abiertas": "12 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:23 horas",
-            "líneas_abiertas": "12 líneas abiertas",
+            "tiempo": "1:20 horas",
+            "líneas_abiertas": "7 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:31 horas",
-            "líneas_abiertas": "19 líneas abiertas",
+            "tiempo": "1:24 horas",
+            "líneas_abiertas": "18 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -39,30 +39,30 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "green",
-            "icono": "vehicular"
-        },
-        {
-            "tipo": "Sentri",
-            "tiempo": "1:12 horas",
-            "líneas_abiertas": "1 línea abierta",
+            "tiempo": "1:52 horas",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
-            "tipo": "ReadyLane",
-            "tiempo": "54 minutos",
-            "líneas_abiertas": "0 líneas abiertas",
+            "tipo": "Sentri",
+            "tiempo": "40 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
+            "tipo": "ReadyLane",
+            "tiempo": "1:08 horas",
+            "líneas_abiertas": "4 líneas abiertas",
+            "color": "red",
+            "icono": "vehicular"
+        },
+        {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "6 líneas abiertas",
+            "color": "red",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-24 09:31"
+    "Ultima_actualizacion": "2026-01-24 09:45"
 }
