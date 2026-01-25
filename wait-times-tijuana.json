@@ -2,21 +2,21 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "3:12 horas",
+            "tiempo": "1:42 horas",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
+            "tiempo": "40 minutos",
             "líneas_abiertas": "11 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:57 horas",
+            "tiempo": "1:47 horas",
             "líneas_abiertas": "11 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
@@ -39,30 +39,30 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "4:48 horas",
+            "tiempo": "4:16 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "24 minutos",
+            "tiempo": "16 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:54 horas",
+            "tiempo": "3:15 horas",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "5 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-24 22:50"
+    "Ultima_actualizacion": "2026-01-24 23:01"
 }
