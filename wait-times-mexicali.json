@@ -2,29 +2,29 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:51 horas",
+            "tiempo": "1:03 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "12 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:33 horas",
+            "tiempo": "3:42 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
-            "líneas_abiertas": "1 línea abierta",
+            "tiempo": "1:07 horas",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         },
@@ -39,23 +39,23 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "1:07 horas",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "20 minutos",
+            "tiempo": "5 minutos",
             "líneas_abiertas": "0 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "",
+            "tiempo": "30 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "green",
             "icono": "vehicular"
         },
         {
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-01-26 04:22"
+    "Ultima_actualizacion": "2026-01-26 05:14"
 }
