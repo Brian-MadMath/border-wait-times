@@ -2,69 +2,69 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "2:27 horas",
+            "tiempo": "1:52 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:28 horas",
+            "tiempo": "3:52 horas",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:36 horas",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:36 horas",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "40 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "20 minutos",
+            "tiempo": "6 minutos",
             "líneas_abiertas": "0 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "",
+            "tiempo": "30 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1:30 horas",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "red",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-02-03 04:02"
+    "Ultima_actualizacion": "2026-02-03 05:21"
 }
