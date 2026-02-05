@@ -2,35 +2,35 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "48 minutos",
+            "tiempo": "45 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "28 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
+            "tiempo": "27 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:18 horas",
+            "tiempo": "59 minutos",
             "líneas_abiertas": "4 líneas abiertas",
-            "color": "red",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "11 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
-            "color": "green",
+            "tiempo": "48 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "17 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "peatonal"
@@ -39,23 +39,23 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "15 minutos",
+            "tiempo": "1:20 horas",
             "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "17 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "28 minutos",
+            "tiempo": "49 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-02-04 15:59"
+    "Ultima_actualizacion": "2026-02-04 17:56"
 }
