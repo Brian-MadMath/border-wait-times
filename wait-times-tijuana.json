@@ -2,85 +2,85 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "12 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "13 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "27 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "30 minutos",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "16 minutos",
-            "líneas_abiertas": "6 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "tiempo": "",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-02-07 00:00"
+    "Ultima_actualizacion": "2026-02-07 00:46"
 }
