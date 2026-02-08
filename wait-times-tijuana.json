@@ -2,30 +2,30 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "46 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
+            "tiempo": "45 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "15 minutos",
-            "líneas_abiertas": "9 líneas abiertas",
+            "tiempo": "16 minutos",
+            "líneas_abiertas": "10 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:38 horas",
+            "tiempo": "1:22 horas",
             "líneas_abiertas": "11 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "40 minutos",
-            "líneas_abiertas": "12 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "1:12 horas",
+            "líneas_abiertas": "13 líneas abiertas",
+            "color": "red",
             "icono": "peatonal"
         },
         {
@@ -46,21 +46,21 @@
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:01 horas",
+            "tiempo": "1:15 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "9 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -69,9 +69,9 @@
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "1:15 horas",
+            "tiempo": "",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "red",
+            "color": "gray",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-02-08 09:00"
+    "Ultima_actualizacion": "2026-02-08 09:26"
 }
