@@ -2,22 +2,22 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "2:04 horas",
+            "tiempo": "1:48 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "30 minutos",
+            "tiempo": "27 minutos",
             "líneas_abiertas": "9 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:43 horas",
-            "líneas_abiertas": "5 líneas abiertas",
+            "tiempo": "1:46 horas",
+            "líneas_abiertas": "14 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
@@ -39,28 +39,28 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "1:45 horas",
+            "tiempo": "2:24 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "32 minutos",
+            "tiempo": "24 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "1:29 horas",
+            "tiempo": "1:51 horas",
             "líneas_abiertas": "5 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "21 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
@@ -76,11 +76,11 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "8 minutos",
+            "tiempo": "41 minutos",
             "líneas_abiertas": "1 línea abierta",
-            "color": "green",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-02-10 12:26"
+    "Ultima_actualizacion": "2026-02-10 13:07"
 }
