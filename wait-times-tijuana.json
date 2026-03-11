@@ -24,7 +24,7 @@
         {
             "tipo": "General",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "19 líneas abiertas",
+            "líneas_abiertas": "18 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-03-11 13:23"
+    "Ultima_actualizacion": "2026-03-11 13:54"
 }
