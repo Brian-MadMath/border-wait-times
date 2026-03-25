@@ -2,7 +2,7 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "40 minutos",
+            "tiempo": "36 minutos",
             "líneas_abiertas": "6 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -16,15 +16,15 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "54 minutos",
+            "tiempo": "1:01 horas",
             "líneas_abiertas": "17 líneas abiertas",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "1 minuto",
-            "líneas_abiertas": "10 líneas abiertas",
+            "tiempo": "8 minutos",
+            "líneas_abiertas": "13 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         },
@@ -39,9 +39,9 @@
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "48 minutos",
+            "tiempo": "1:50 horas",
             "líneas_abiertas": "1 línea abierta",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
@@ -53,25 +53,25 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "59 minutos",
+            "tiempo": "2:12 horas",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "tiempo": "33 minutos",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
     "Garita Chaparral": [
         {
             "tipo": "General",
-            "tiempo": "",
+            "tiempo": "10 minutos",
             "líneas_abiertas": "0 líneas abiertas",
-            "color": "gray",
+            "color": "green",
             "icono": "peatonal"
         },
         {
@@ -82,5 +82,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-03-25 03:02"
+    "Ultima_actualizacion": "2026-03-25 03:59"
 }
