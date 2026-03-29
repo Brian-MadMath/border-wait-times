@@ -23,16 +23,16 @@
         },
         {
             "tipo": "General",
-            "tiempo": "En espera...",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "gray",
+            "color": "yellow",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "En espera...",
+            "tiempo": "48 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "gray",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
@@ -60,11 +60,11 @@
         },
         {
             "tipo": "General",
-            "tiempo": "En espera...",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "gray",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-03-29 11:04"
+    "Ultima_actualizacion": "2026-03-29 11:58"
 }
