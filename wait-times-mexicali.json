@@ -2,14 +2,14 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:27 horas",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "tiempo": "28 minutos",
+            "líneas_abiertas": "1 línea abierta",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "23 minutos",
+            "tiempo": "25 minutos",
             "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -17,21 +17,21 @@
         {
             "tipo": "ReadyLane",
             "tiempo": "25 minutos",
-            "líneas_abiertas": "5 líneas abiertas",
+            "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "40 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
-            "color": "yellow",
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "1 línea abierta",
+            "color": "red",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:40 horas",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "1:36 horas",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
         }
@@ -39,7 +39,7 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "1 línea abierta",
             "color": "green",
             "icono": "vehicular"
@@ -53,7 +53,7 @@
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "30 minutos",
+            "tiempo": "13 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -61,10 +61,10 @@
         {
             "tipo": "General",
             "tiempo": "8 minutos",
-            "líneas_abiertas": "4 líneas abiertas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-04-09 16:50"
+    "Ultima_actualizacion": "2026-04-09 18:13"
 }
