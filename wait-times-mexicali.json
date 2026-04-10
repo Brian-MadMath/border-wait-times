@@ -2,14 +2,14 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "1:37 horas",
+            "tiempo": "1:40 horas",
             "líneas_abiertas": "1 línea abierta",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "16 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
@@ -23,39 +23,39 @@
         },
         {
             "tipo": "General",
-            "tiempo": "51 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "tiempo": "32 minutos",
+            "líneas_abiertas": "1 línea abierta",
             "color": "yellow",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "16 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "color": "yellow",
             "icono": "peatonal"
         }
     ],
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "44 minutos",
+            "tiempo": "12 minutos",
             "líneas_abiertas": "1 línea abierta",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "8 minutos",
+            "tiempo": "28 minutos",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "12 minutos",
+            "tiempo": "1:14 horas",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "green",
+            "color": "red",
             "icono": "vehicular"
         },
         {
@@ -66,5 +66,5 @@
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-04-10 07:20"
+    "Ultima_actualizacion": "2026-04-10 08:11"
 }
