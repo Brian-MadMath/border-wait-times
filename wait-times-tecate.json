@@ -2,18 +2,18 @@
     "Garita Tecate": [
         {
             "tipo": "General",
-            "tiempo": "1:59 horas",
+            "tiempo": "En espera...",
             "líneas_abiertas": "2 líneas abiertas",
-            "color": "red",
+            "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "8 minutos",
+            "tiempo": "En espera...",
             "líneas_abiertas": "3 líneas abiertas",
-            "color": "green",
+            "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-04-28 10:02"
+    "Ultima_actualizacion": "2026-04-28 11:25"
 }
