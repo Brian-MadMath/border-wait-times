@@ -2,14 +2,14 @@
     "Garita Centro": [
         {
             "tipo": "General",
-            "tiempo": "57 minutos",
+            "tiempo": "1:21 horas",
             "líneas_abiertas": "1 línea abierta",
-            "color": "yellow",
+            "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
-            "tiempo": "36 minutos",
+            "tiempo": "32 minutos",
             "líneas_abiertas": "4 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
@@ -23,7 +23,7 @@
         },
         {
             "tipo": "General",
-            "tiempo": "1:12 horas",
+            "tiempo": "2:16 horas",
             "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "peatonal"
@@ -39,32 +39,32 @@
     "Garita Nuevo Mexicali": [
         {
             "tipo": "General",
-            "tiempo": "49 minutos",
+            "tiempo": "26 minutos",
             "líneas_abiertas": "1 línea abierta",
-            "color": "yellow",
+            "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
             "tiempo": "16 minutos",
-            "líneas_abiertas": "2 líneas abiertas",
+            "líneas_abiertas": "3 líneas abiertas",
             "color": "green",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "54 minutos",
-            "líneas_abiertas": "3 líneas abiertas",
+            "tiempo": "49 minutos",
+            "líneas_abiertas": "2 líneas abiertas",
             "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
-            "tiempo": "33 minutos",
+            "tiempo": "8 minutos",
             "líneas_abiertas": "4 líneas abiertas",
-            "color": "yellow",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-05-09 10:32"
+    "Ultima_actualizacion": "2026-05-09 11:33"
 }
