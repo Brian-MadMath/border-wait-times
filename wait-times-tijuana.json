@@ -2,67 +2,67 @@
     "Garita San Ysidro": [
         {
             "tipo": "General",
-            "tiempo": "24 minutos",
-            "líneas_abiertas": "6 líneas abiertas",
-            "color": "green",
+            "tiempo": "39 minutos",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "yellow",
             "icono": "vehicular"
         },
         {
             "tipo": "Sentri",
             "tiempo": "En espera...",
-            "líneas_abiertas": "8 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
             "icono": "vehicular"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "2:29 horas",
-            "líneas_abiertas": "14 líneas abiertas",
+            "tiempo": "1:02 horas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
             "tipo": "General",
             "tiempo": "En espera...",
-            "líneas_abiertas": "18 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
-            "tiempo": "En espera...",
-            "líneas_abiertas": "1 línea abierta",
-            "color": "gray",
+            "tiempo": "1:30 horas",
+            "líneas_abiertas": "0 líneas abiertas",
+            "color": "red",
             "icono": "peatonal"
         }
     ],
     "Garita Otay Mesa": [
         {
             "tipo": "General",
-            "tiempo": "En espera...",
+            "tiempo": "1:34 horas",
             "líneas_abiertas": "1 línea abierta",
-            "color": "gray",
-            "icono": "vehicular"
-        },
-        {
-            "tipo": "Sentri",
-            "tiempo": "30 minutos",
-            "líneas_abiertas": "0 líneas abiertas",
-            "color": "green",
-            "icono": "vehicular"
-        },
-        {
-            "tipo": "ReadyLane",
-            "tiempo": "1:47 horas",
-            "líneas_abiertas": "2 líneas abiertas",
             "color": "red",
             "icono": "vehicular"
         },
         {
-            "tipo": "General",
+            "tipo": "Sentri",
             "tiempo": "En espera...",
-            "líneas_abiertas": "6 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
+            "icono": "vehicular"
+        },
+        {
+            "tipo": "ReadyLane",
+            "tiempo": "1:00 hora",
+            "líneas_abiertas": "2 líneas abiertas",
+            "color": "yellow",
+            "icono": "vehicular"
+        },
+        {
+            "tipo": "General",
+            "tiempo": "Sin demora",
+            "líneas_abiertas": "3 líneas abiertas",
+            "color": "green",
             "icono": "peatonal"
         }
     ],
@@ -70,17 +70,17 @@
         {
             "tipo": "General",
             "tiempo": "En espera...",
-            "líneas_abiertas": "4 líneas abiertas",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
             "icono": "peatonal"
         },
         {
             "tipo": "ReadyLane",
             "tiempo": "En espera...",
-            "líneas_abiertas": "1 línea abierta",
+            "líneas_abiertas": "0 líneas abiertas",
             "color": "gray",
             "icono": "peatonal"
         }
     ],
-    "Ultima_actualizacion": "2026-05-11 21:49"
+    "Ultima_actualizacion": "2026-05-12 00:32"
 }
